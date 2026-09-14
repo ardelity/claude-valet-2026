@@ -67,19 +67,31 @@ Underlag för de mest laddade cellerna:
 
 Symmetriska matriser, övre halvan ifylld. Mäter hur mycket partiernas faktiska politik överlappar.
 
-### 2a. Total (oviktat medel av de tio områdena)
+### 2a. Total (oviktat medel av de tolv områdena)
+
+Medel av 2b–2m. Avrundad till heltal; en decimal i tabellen därunder.
 
 | | S | MP | C | L | KD | M | SD |
 |---|---|---|---|---|---|---|---|
-| **V** | 5 | 6 | 4 | 2 | 2 | 2 | 2 |
-| **S** | | 5 | 6 | 6 | 5 | 6 | 4 |
+| **V** | 5 | 6 | 4 | 2 | 2 | 2 | 3 |
+| **S** | | 6 | 5 | 5 | 5 | 5 | 4 |
 | **MP** | | | 6 | 4 | 3 | 3 | 2 |
 | **C** | | | | 7 | 6 | 6 | 3 |
 | **L** | | | | | 7 | 8 | 5 |
 | **KD** | | | | | | 8 | 6 |
 | **M** | | | | | | | 6 |
 
-Obs: områdesvalet påverkar totalen. Arbetsmarknad och fördelningspolitik (där V–S är närmast) ingår inte, vilket drar ner V–S.
+| | S | MP | C | L | KD | M | SD |
+|---|---|---|---|---|---|---|---|
+| **V** | 5,4 | 6,4 | 3,5 | 2,0 | 2,0 | 1,7 | 2,7 |
+| **S** | | 5,5 | 5,2 | 5,3 | 5,2 | 5,2 | 4,4 |
+| **MP** | | | 5,5 | 4,0 | 3,0 | 2,8 | 1,9 |
+| **C** | | | | 6,8 | 5,7 | 6,4 | 3,3 |
+| **L** | | | | | 7,2 | 7,8 | 4,8 |
+| **KD** | | | | | | 8,2 | 6,3 |
+| **M** | | | | | | | 6,1 |
+
+Obs: områdesvalet påverkar totalen. Med de ursprungliga tio områdena (utan arbetsmarknad och fördelningspolitik) låg V–S på 4,9 och S–M på 5,6; med tolv områden är det 5,4 respektive 5,2. Tillägget av de två ekonomiska områdena är det som vänder rangordningen mellan de paren.
 
 ### 2b. Energipolitik
 
@@ -221,14 +233,61 @@ Blocken bryts helt. SD isolerat från hela Tidö och närmast V. C och L mest EU
 
 V–MP 8 är högsta på området. C balanserar mellan marknadsbaserad klimatpolitik (6 mot MP och L) och skogsfrågan. L har försökt hålla kvar klimatmålen (5 mot S, 3 mot SD). SD ensamt längst ut. Energi och klimat är inte samma axel.
 
+### 2l. Arbetsmarknad
+
+Arbetsrätt (LAS, turordning), a-kassa, arbetskraftsinvandring, lönebildning, anställningsstöd och synen på parternas roll.
+
+| | S | MP | C | L | KD | M | SD |
+|---|---|---|---|---|---|---|---|
+| **V** | 8 | 6 | 2 | 2 | 2 | 1 | 4 |
+| **S** | | 6 | 3 | 4 | 4 | 3 | 5 |
+| **MP** | | | 5 | 4 | 3 | 3 | 3 |
+| **C** | | | | 8 | 7 | 8 | 3 |
+| **L** | | | | | 7 | 8 | 4 |
+| **KD** | | | | | | 8 | 6 |
+| **M** | | | | | | | 5 |
+
+V–S 8: samma grundsyn på arbetsrätt, a-kassa och partsmodellen; skiljer sig på LAS-uppgörelsen 2022 och arbetskraftsinvandring. S–C 3: C drev LAS-liberaliseringen, vill ha låglönejobb och lägre trösklar. S–SD 5: båda vill begränsa arbetskraftsinvandring, SD har rört sig mot S i a-kassefrågan. C–M–L 8: flexiblare arbetsrätt, marknadsmässiga ingångslöner. M–SD 5: SD mer fack- och a-kassevänligt. V–SD 4: överlapp på a-kassa och arbetskraftsinvandring, motsatser på arbetsrätt.
+
+### 2m. Fördelningspolitik
+
+Transfereringssystemens generositet (sjukförsäkring, föräldraförsäkring, barnbidrag, bostadsbidrag), pensioner, bidragstak, ekonomisk jämlikhet som mål, riktade avdrag som RUT/ROT.
+
+| | S | MP | C | L | KD | M | SD |
+|---|---|---|---|---|---|---|---|
+| **V** | 8 | 7 | 2 | 2 | 3 | 1 | 4 |
+| **S** | | 7 | 4 | 4 | 5 | 3 | 5 |
+| **MP** | | | 4 | 4 | 4 | 2 | 3 |
+| **C** | | | | 7 | 6 | 7 | 4 |
+| **L** | | | | | 7 | 8 | 5 |
+| **KD** | | | | | | 8 | 6 |
+| **M** | | | | | | | 5 |
+
+V–S 8: samma riktning i alla transfereringsfrågor; V vill gå längre. S–KD 5: KD:s familjepolitik ligger närmare S än M gör. S–SD 5: SD:s välfärdspopulism (pensioner, garantitillägg, sjukförsäkring) ger reell överlappning, men kopplad till medborgarskap och vistelsetid. V–KD 3: pensionsfrågan. M–SD 5: eniga om bidragstak och kvalificering, oeniga om nivåer. C–SD 4: båda vill ha kvalificering till välfärden, C mer restriktivt generellt.
+
 ---
 
 ## Observationer
 
-- Skillnaden mellan Del 1 (vilja) och Del 2 (sak) är ett mått på hur mycket friktion som är blockstrategi snarare än sakinnehåll. Störst gap: S–M, S–SD, C–M. Minst: V–S, M–KD, M–L.
+- Skillnaden mellan Del 1 (vilja) och Del 2 (sak) är ett mått på hur mycket friktion som är blockstrategi snarare än sakinnehåll. Störst gap: S–M (sak 5,2, vilja 3), S–SD, C–M. Minst: V–S, M–KD, M–L.
 - Försvar och EU är områdena där blocklogiken stämmer sämst med sakpolitiken.
-- Migration och rättsväsende är områdena där S–M-överlappet är störst.
+- Migration och rättsväsende är områdena där S–M-överlappet är störst; arbetsmarknad och fördelningspolitik där det är minst (3 respektive 3).
 - SD:s avstånd till M varierar från 8 (energi, migration, rätt) till 3 (EU): Tidö är i sak ett avtal om tre områden, inte ett ideologiskt block.
+- V–S är närmast på de två ekonomiska områdena (8 och 8) och längst ifrån på migration (3) och försvar (3). Vänsterblockets sammanhållning är ekonomisk, inte utrikes- eller migrationspolitisk.
+
+### Majoritetskonstellationer efter sakpolitisk närhet
+
+Genomsnittlig parvis närhet (tolv områden), konstellationer med ≥ 175 mandat.
+
+| Konstellation | Mandat | Snitt | Svagaste par |
+|---|---|---|---|
+| S+M+L+KD | 211 | 6,5 | S–M 5,2 |
+| S+M+L | 189 | 6,1 | S–M 5,2 |
+| S+M+C | 195 | 5,6 | S–M 5,2 |
+| S+MP+C+L+KD | 188 | 5,3 | MP–KD 3,0 |
+| V+S+MP+C | 176 | 5,3 | V–C 3,5 |
+
+Tidö internt (M+KD+L+SD, 173 mandat) ligger på 6,7. En S–M-axel är sakpolitiskt starkare än det faktiska majoritetsblocket, men bara med ekonomisk politik viktad lika lätt som försvar och EU.
 
 ## Möjliga vidareutvecklingar
 
@@ -236,6 +295,7 @@ V–MP 8 är högsta på området. C balanserar mellan marknadsbaserad klimatpol
 - Symmetriskt samarbetsvärde per par = min av de två riktningarna i Del 1.
 - Medelvärde per parti (generell samarbetsvillighet / generell sakpolitisk närhet till övriga).
 - Uppdatera Del 1 löpande under regeringsbildningen hösten 2026.
+- Ytterligare områden: bostadspolitik (hyresreglering, byggsubventioner, strandskydd), landsbygd och regional politik (C:s profilområde, troligen C–SD högre än annars), finanspolitiskt ramverk (V och SD båda mer utgiftsvilliga), kultur/media/public service (SD ensamt i utkanten).
 
 ---
 
@@ -290,3 +350,10 @@ Skala 1–10. "Värde" = hur högt partiledningen värderar utfallet. "Risk" = r
 - M och S är svagast: båda har bara ett acceptabelt utfall.
 - L har negativt netto i två av tre roller – partiet behöver en regering men helst utan att synas för mycket i den.
 - Ett valresultat som tar bort regeringsalternativet för SD är inte självklart dåligt för SD:s långsiktiga bas.
+
+---
+
+## Ändringslogg
+
+- 2026-09-14: Ursprunglig version med tio sakpolitiska områden.
+- 2026-09-14: 2l Arbetsmarknad och 2m Fördelningspolitik tillagda. 2a omräknad på tolv områden med en decimal. Observationer och konstellationstabell uppdaterade. Ytterligare områden listade under vidareutvecklingar.
