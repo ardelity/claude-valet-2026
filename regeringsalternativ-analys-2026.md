@@ -10,15 +10,44 @@ Listan är sorterad efter **sakpolitisk närhet** i regeringskretsen (regeringsp
 
 ## 1. Röda linjer
 
-| Parti | Röd linje | Effekt i modellen | Linjen släpps (bedömd) |
-|---|---|---|---|
-| <a id="linje-c-v"></a>C | Nej till regering där V har ministrar. Hellre nyval än V i regeringen | R = 6 för C i varje alternativ där V sitter i regeringen och C behövs. κ(C) = 1 | **15 %**. Del 1b: C→V 1–4, högsta värdet över tröskeln 3. Uttalad med nyval som alternativ, vilket gör den dyr att backa från |
-| <a id="linje-c-sd"></a>C | Nej till regering som är beroende av SD | R = 6 för C i varje M-lett alternativ där SD behövs och C behövs | **5 %**. Del 1b: C→SD 1–2, når aldrig tröskeln. C lämnade Alliansen över frågan |
-| <a id="linje-s-sd"></a>S | Inget samarbete med SD | Del 1 S→SD = 1. Inga alternativ där både S och SD behövs | **1 %**. Del 1b: S→SD 1 utan intervall |
-| <a id="linje-mp-karnkraft"></a>MP | Kan inte sitta i regering som bygger ny kärnkraft | Utesluter MP som regeringsparti tillsammans med L, KD eller M. MP tolererar i stället | **10 %**. Del 1b: MP→L 2–4, MP→KD 1–3. Sakfråga snarare än partilinje, men kongressbunden |
-| <a id="linje-m-sd"></a>M, SD | Uppgörelse från april 2026: SD ska ingå i regeringen | Gör M-ledd regering utan SD-ministrar till ett brutet löfte. Markeras i listan men ger inget R-straff, eftersom det är ett löfte mellan M och SD, inte en linje mot ett tredje parti | **20 %**. Bryts bara om M erbjuds bilda regering utan SD. SD→M 9–10 håller priset nere, men löftet gavs före valet |
-| <a id="linje-l-kd"></a>L, KD | Blocklojalitet. L har släppt motståndet mot SD i regeringen; KD har öppnat för S i sakfrågor men inte i regering | Kontextjusterad regeringsrisk: L 8, KD 7 i S-ledd regering | **L 20 %, KD 30 %**. Del 1b: L→S 2–5, KD→S 3–6, båda når över tröskeln. KD har redan öppnat för S i sakfrågor |
-| <a id="linje-v"></a>V | Regering om V:s röster behövs; aldrig stödparti utan inflytande | Del 3c: stödparti −3, regering +3, opposition +3. Ingen röd linje i formell mening, utan ett rollvärde som slår igenom i alla listor | **50 %**. Inte en linje utan ett rollvärde. A′/B′ (30 %) förutsätter redan att V accepterar aktiv tolerans utan avtal |
+Sorterad efter hur troligt det är att linjen **kvarstår**, det vill säga fortfarande gäller när en regering har tillträtt eller ett nyval är utlyst. "Prövas" anger hur troligt det är att linjen alls blir avgörande i regeringsbildningen: en linje som ingen utmanar kvarstår billigt och säger lite om utfallet.
+
+| Parti | Röd linje | Effekt i modellen | Prövas | Kvarstår (bedömd) | Släpps | Motivering |
+|---|---|---|---|---|---|---|
+| <a id="linje-s-sd"></a>S | Inget samarbete med SD | Del 1 S→SD = 1. Inga alternativ där både S och SD behövs | Låg | **99 %** | 1 % | Del 1b: S→SD 1 utan intervall. Ingen aritmetik kräver att den prövas |
+| <a id="linje-c-sd"></a>C | Nej till regering som är beroende av SD | R = 6 för C i varje M-lett alternativ där SD behövs och C behövs | Låg | **95 %** | 5 % | Del 1b: C→SD 1–2, når aldrig tröskeln. C lämnade Alliansen över frågan och har efter valet öppnat för samtal med S. Prövas bara om S-sidan misslyckas och M får försöka |
+| <a id="linje-mp-karnkraft"></a>MP | Kan inte sitta i regering som bygger ny kärnkraft | Utesluter MP som regeringsparti tillsammans med L, KD eller M. MP tolererar i stället | Medel | **90 %** | 10 % | Del 1b: MP→L 2–4, MP→KD 1–3. Kongressbunden. Prövas också i en S-regering, eftersom S vill möjliggöra ny kärnkraft. Kvarstår till stor del för att någon annan betalar. Sitter MP i en S-regering måste S avstå från nya reaktorer under mandatperioden; sitter MP utanför prövas linjen inte. I praktiken är det S:s kärnkraftslinje som släpps, i omkring 30 % av utfallen. En del av de 90 % innebär att MP lämnar regeringen under mandatperioden, om C och Tidöpartierna driver igenom kärnkraft i riksdagen, se 1.1 |
+| <a id="linje-c-v"></a>C | Nej till regering där V har ministrar. Hellre nyval än V i regeringen | R = 6 för C i varje alternativ där V sitter i regeringen och C behövs. κ(C) = 1 | **Hög** | **85 %** | 15 % | Del 1b: C→V 1–4, högsta värdet över tröskeln 3. Uttalad med nyval som alternativ, vilket gör den dyr att backa från. C öppnar efter valet för samtal med S men upprepar villkoret att regeringen inte ska innebära en vänstersväng |
+| <a id="linje-l-kd"></a>L, KD | Blocklojalitet. L har släppt motståndet mot SD i regeringen; KD har öppnat för S i sakfrågor men inte i regering | Kontextjusterad regeringsrisk: L 8, KD 7 i S-ledd regering | **Hög** | **L 80 %, KD 80 %** | L 20 %, KD 20 % | Del 1b: L→S 2–5, KD→S 3–6. KD sänkt från 30 till 20 % släpps: Busch sa den 2 september att KD röstar nej till Andersson "ända fram till ett nyval", ett besked lika dyrt att backa från som C:s. Linjen prövas direkt, eftersom E och alla S–M-alternativ kräver L eller KD. De två är starkt korrelerade: chansen att båda släpper är nära 15 % |
+| <a id="linje-m-sd"></a>M, SD | Uppgörelse från april 2026: SD ska ingå i regeringen | Gör M-ledd regering utan SD-ministrar till ett brutet löfte. Markeras i listan men ger inget R-straff, eftersom det är ett löfte mellan M och SD, inte en linje mot ett tredje parti | Medel | **80 %** | 20 % | Bryts bara om M erbjuds bilda regering utan SD. SD→M 9–10 håller priset nere, men löftet gavs före valet |
+| <a id="linje-v"></a>V | Regering om V:s röster behövs; aldrig stödparti utan inflytande | Del 3c: stödparti −3, regering +3, opposition +3. Ingen röd linje i formell mening, utan ett rollvärde som slår igenom i alla listor | **Hög** | **45 %** | 55 % | Starkast formulerad av alla: kongressplattformen säger nej till att släppa fram en regering V inte ingår i, och V upprepade på valnatten att partiet då röstar nej till Andersson. Ändå den enda linje som troligare släpps än kvarstår: V har släppt fram S utan ministrar varje gång sedan 2014, valframgången gör det dyrare att få skulden för fyra år till med Tidö, och scenariomodellens A′/B′, D och A/B (58 %) förutsätter redan att V ger efter. Tidigare 50 % släpps |
+
+### 1.1 Vilka linjer kvarstår
+
+**Tre grupper.** S mot SD och C mot SD-beroende kvarstår med 95 % eller mer, men avgör lite, eftersom få realistiska alternativ utmanar dem. MP:s kärnkraftslinje (90 %) prövas i varje S-regering där MP ingår, men håller för att S viker, se nedan. C mot V-ministrar och L:s och KD:s blocklojalitet kvarstår med 80–85 % och prövas alla direkt; det är de linjer som formar utfallet. V:s ministerkrav är ensamt i den tredje gruppen: prövas säkert och är närmast en slantsingling.
+
+**C och V kan inte båda stå fast om S ska regera på 176.** Utan L och KD kräver en S-ledd regering att minst en av C:s och V:s linjer faller. Med 85 och 45 % ger oberoende 38 % för att båda står fast. De är snarare negativt beroende, eftersom det parti som ser det andra stå fast har störst skäl att vika, så en rimligare siffra är 30 %. Står båda fast återstår S–M-axeln, en fortsatt Kristerssonregering på passiv tolerans, eller nyval. Det är mer än de 13 % som F har i scenariomodellen.
+
+**MP:s linje håller genom att S ändrar sin.** S vill skapa förutsättningar för ny kärnkraft, MP kan inte sitta i en regering som bygger den. Båda kan inte stå fast med MP i regeringen, och MP:s linje är den som är kongressbunden. S:s hållning är däremot ingen röd linje, och det som troligast händer är att S avstår från nya statliga beslut och ny finansiering för reaktorer under mandatperioden men låter redan fattade beslut ligga. S-ledda alternativ där MP kan ingå (A′/B′, A/B, C, D) har 61 %; om MP sitter i regeringen i ungefär hälften av A′/B′ och A/B blir det omkring 34 %, och med 90 % för att MP står fast får S vika i omkring 30 % av utfallen. Sitter MP utanför behåller S sin linje, men MP:s röster behövs för budgeten och kärnkraften blir då en förhandlingsfråga utan att någon linje bryts.
+
+**En S+MP-regering kan tvingas fram till kärnkraft, men då lämnar MP hellre regeringen.** Regeringen beslutade i juni 2026 att staten tar 60 % av Videberg Kraft, bolaget som ska bygga vid Ringhals, med statliga lån, prissäkring och risk- och vinstdelning. EU-kommissionen ska godkänna stödet och investeringsbeslutet väntas 2029–2030. En S+MP-regering ärver alltså ett statligt majoritetsägt projekt och får som ägare säga ja eller nej inom mandatperioden; att avbryta kostar avtalsbrott, vilket gör en ren paus dyrare än den ser ut.
+
+Riksdagen har dessutom en majoritet för kärnkraft utanför en S+MP-regering. För tillkännagivanden och lagstiftning på utskottsinitiativ räcker flest ja-röster: Tidöpartiernas 173 slår S+MP+V:s 151 om C lägger ner. C behöver alltså inte rösta för, bara avstå. Misstroende mot en minister kräver 175 ja och därmed att C röstar med Tidöpartierna. Tillkännagivanden kan regeringen låta ligga, som regeringarna Löfven och Andersson gjorde med många; en lag på utskottsinitiativ måste den verkställa. Då går MP:s linje inte att hålla i regeringen, och prejudikatet är november 2021, när MP lämnade regeringen hellre än att regera på M+KD+SD:s budget. Linjen kvarstår i det fallet, men MP blir stödparti och S regerar ensamt.
+
+Det som avgör är därför energiklausulen i S:s avtal med C, inte förhandlingen mellan S och MP. Binder avtalet C att inte driva ny kärnkraft med Tidöpartierna under mandatperioden, till exempel inga nya statliga beslut, håller MP:s linje i regeringen. Lämnar avtalet energin fri kan C och Tidöpartierna tvinga fram den. C är för kärnkraft men har ingen egen röd linje i frågan, så klausulen är förhandlingsbar, och det är sannolikt en av de dyrare punkter S får betala C för.
+
+**Konsistens med sannolikheterna i avsnitt 2.** Tre av linjerna går att stämma av mot scenariomodellen:
+
+| Linje | Scenarier som förutsätter att den släpps | Deras samlade sannolikhet | Släpps (bedömd) | Stämmer? |
+|---|---|---|---|---|
+| C mot V-ministrar | C | 3 % | 15 % | Ja. Viktat bidrag 4,2 % enligt 2.4 |
+| M, SD: SD i regeringen | G2, G3 | cirka 3 % | 20 % | Ja |
+| V:s ministerkrav | A′/B′, D, A/B | 58 % | 55 % | Nästan. Scenariomodellen är något mer optimistisk om V än bedömningen här |
+| L:s och KD:s blocklojalitet | E | 22 % | cirka 15 % att båda släpper | **Nej.** E kan inte vara troligare än att både L och KD byter sida |
+
+E:s 22 % väger inte in Busch-beskedet fullt ut och bör sänkas till högst 15 %. De frigjorda procentenheterna hör främst hemma i F, i linje med resonemanget om C och V ovan. Scenariomodellen är inte omräknad i denna version; sannolikheterna i avsnitt 2 och 3 gäller läget före justeringen.
+
+Källor till beskeden efter valet: [Busch (KD), SVT 2 september](https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026?inlagg=9921e87d8857608bb79ee35589fbe1c1), [V röstar nej till Andersson, VK 13 september](https://www.vk.se/2026-09-13/v-da-rostar-vi-nej-till-magdalena-andersson-2e694), [C öppnar för samtal med S](https://hurbra.se/c-s-regering-2026/), [V:s regeringskrav 14 september](https://hurbra.se/vansterpartiet-regeringskrav-14-september-2026/), [Ringhals: staten majoritetsägare, Regeringen.se juni 2026](https://www.regeringen.se/pressmeddelanden/2026/06/nasta-stora-steg-for-ny-karnkraft-i-sverige/), [Villkoren för Ringhals, Energiföretagen](https://www.energi.se/artiklar/2026/juni-2026/klart-med-villkoren-for-ny-karnkraft-i-ringhals--staten-blir-majoritetsagare/).
 
 Utöver de uttalade linjerna räknas samarbetsviljan i Del 1 som ett straff där viljan är under 3 (Del1-straff, 2 poäng per steg under 3). Det anges i listan inom parentes, till exempel "MP Del1 2" för MP→KD i scenario E. S↔M ligger på exakt 3 i båda riktningarna och ger därför inget straff, se 2.2.
 
@@ -136,7 +165,7 @@ Rad 15 och 16 bygger på att V:s aktiva tolerans räknas som halvvägs mellan st
 
 Sannolikheterna i sista kolumnen är räknade med kalibreringen i 2.4: tre poäng lägre genomförbarhet motsvarar ungefär en faktor 3,5, så A′/B′ går från 30 till omkring 8 procent och D från 4 till 3. De frigjorda 23 procentenheterna fördelas proportionellt på de övriga bedömda scenarierna. Att A/B stiger är en artefakt av den fördelningen: alternativet bygger på V som avtalspart, vilket den strikta läsningen träffar minst lika hårt, och V:s tal där är redan negativt. Läser man beslutet strikt bör A/B:s massa i praktiken också gå till E och F, som då hamnar kring 45 respektive 25 procent.
 
-Konsekvensen är att ingen S-ledd regering med V utanför går ihop. Det som återstår på S-sidan är scenario C med V i regeringen, blockerat av C:s linje mot V-ministrar, E med V passiv, och S–M-alternativen. Fallet ligger nära scenariomodellens känslighetstest för κ: med κ(V) = 0 faller A′/B′ till −1,25 av ett annat skäl, att V då inte har något att förlora på nyval. Gäller både strikt läsning och κ = 0 blir V:s tal −4,25 och inget S-lett alternativ med V utanför regeringen är i närheten. V:s tal på rad 15 är därmed den enskilda parameter som bär mest sannolikhetsmassa i listan. I avsnitt 1 är chansen att V släpper hållningen satt till 50 procent, vilket är ett annat sätt att säga samma sak.
+Konsekvensen är att ingen S-ledd regering med V utanför går ihop. Det som återstår på S-sidan är scenario C med V i regeringen, blockerat av C:s linje mot V-ministrar, E med V passiv, och S–M-alternativen. Fallet ligger nära scenariomodellens känslighetstest för κ: med κ(V) = 0 faller A′/B′ till −1,25 av ett annat skäl, att V då inte har något att förlora på nyval. Gäller både strikt läsning och κ = 0 blir V:s tal −4,25 och inget S-lett alternativ med V utanför regeringen är i närheten. V:s tal på rad 15 är därmed den enskilda parameter som bär mest sannolikhetsmassa i listan. I avsnitt 1 är chansen att V släpper hållningen satt till 55 procent, vilket är ett annat sätt att säga samma sak.
 
 ## 3. Budget
 
@@ -220,6 +249,7 @@ Kolumnerna: Budgetkrets är de partier som röstar för ramen, med mandat. Motbl
 - **Utan röda linjer** tillkommer scenario C, G3 och M+KD+L med SD-avtal. Alternativ med C eller SD i regeringen förblir negativa oavsett linjer; det är rollvärden i Del 3, inte röda linjer.
 - **Gemensamt oavsett linjer:** C sitter aldrig i regeringen, SD sitter aldrig i regeringen, och S leder om inte S och M gör upp.
 - **Budget** (avsnitt 3): Tidö 83 %, E 70 %, S–M-axeln 61–66 %, alla S-ledda alternativ med C och V 36–40 %. Det troligaste alternativet att bildas är bland de minst troliga att få igenom sin budget.
+- **Tidöpartierna i opposition:** med C som avtalspartner räcker C:s nedlagda röster utanför avtalet för att Tidöpartierna ska vinna med 173 mot 151; med S+MP+C i regeringen och V utanför får de genomslag på försvar, EU, migration och rättsväsende när regeringen lånar deras röster, och Tidö+V har 202 röster för misstroende; med både C och V i regeringen är de främst hänvisade till status quo. Se [`tidopartiernas-verktyg-i-opposition-2026.md`](tidopartiernas-verktyg-i-opposition-2026.md).
 
 ---
 
@@ -228,11 +258,12 @@ Kolumnerna: Budgetkrets är de partier som röstar för ramen, med mandat. Motbl
 Från scenariomodellens avsnitt 8, med tillägg:
 
 1. **Slutlig mandatfördelning.** Vid 175/174 stiger E och F, A′/B′ och A/B sjunker.
-2. **V:s första besked om samarbetsform.** Avgör också om aktiv tolerans utan avtal är förenlig med kongressbeslutet, se 2.5. "Ministerposter eller inget" flyttar massa från A/B till A′/B′ och E. "Avtal går bra" flyttar till A/B.
-3. **KD:s eller L:s besked om Andersson.** Öppning höjer E till etta. Stängd dörr tar bort E och lämnar A′/B′, A/B och F.
+2. **V:s första besked om samarbetsform.** Givet på valnatten: nej till Andersson om V inte ingår i regeringen, se 1.1. Avgör också om aktiv tolerans utan avtal är förenlig med kongressbeslutet, se 2.5. "Ministerposter eller inget" flyttar massa från A/B till A′/B′ och E. "Avtal går bra" flyttar till A/B.
+3. **KD:s eller L:s besked om Andersson.** KD:s nej "ända fram till ett nyval" (2 september) står kvar, se 1.1. Öppning höjer E till etta. Stängd dörr tar bort E och lämnar A′/B′, A/B och F.
 4. **C:s besked om V.** Om C mjukar upp linjen mot V-ministrar öppnas scenario C, som då blir starkast bland de S-ledda alternativen utanför S–M-axeln. Det är den enda röda linje vars fall ändrar sannolikheterna i grunden.
 5. **Ett S–M-närmande.** Osannolikt enligt Del 1, men listan visar att det är det enda som ger en regering med både bred marginal och sakpolitiskt sammanhållen krets. En krissituation som tvingar fram det skulle sätta de bedömda sannolikheterna ur spel helt.
 6. **C:s besked om SD.** Om C släpper linjen mot SD-beroende blir G3 och M+KD+L med SD-avtal genomförbara med smal marginal, men aritmetiken (111–173 mandat, SD bindande) gör dem ändå bräckliga.
+7. **Energiklausulen i ett S–C-avtal.** Binder den C i kärnkraftsfrågan kan MP sitta i en S-regering hela mandatperioden. Lämnar den energin fri kan C och Tidöpartierna tvinga fram kärnkraft i riksdagen, och MP lämnar troligen regeringen, se 1.1.
 
 ---
 
@@ -255,3 +286,4 @@ Från scenariomodellens avsnitt 8, med tillägg:
 - 2026-09-14: Sannolikhet flyttad till tredje kolumnen. Kontrafaktisk sannolikhet om linjen släpps tillagd i listan och i 2.4. Bedömd sannolikhet att varje linje släpps tillagd i avsnitt 1.
 - 2026-09-14: Regering, samarbetspartner och tolerans som egna kolumner, förklaringstabell över former av deltagande. Känslighetsfall 2.5: V:s kongressbeslut läst strikt, markerat på rad 15 och 16.
 - 2026-09-14: Avsnitt 3 Budget: finanspolitisk axel per parti, formel för budgetsannolikhet (aritmetik, enighet, ägarskap) och tabell per alternativ. Slutsatser och signaler omnumrerade till 4 och 5.
+- 2026-09-15: Avsnitt 1 sorterat efter sannolikhet att linjen kvarstår, med kolumn för hur troligt det är att linjen prövas. Nytt 1.1 med grupper, C–V-krocken och konsistenskontroll mot scenariosannolikheterna. KD 30 → 20 % släpps, V 50 → 55 %. E:s 22 % flaggad som för hög. MP:s kärnkraftslinje förtydligad: den håller genom att S viker, och avgörs i praktiken av energiklausulen i S:s avtal med C (riksdagsmajoritet, Ringhals, MP 2021). Signal 7 tillagd. Hänvisning till fördjupningen `tidopartiernas-verktyg-i-opposition-2026.md` i avsnitt 4.
