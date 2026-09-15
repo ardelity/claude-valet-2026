@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Regeringsalternativ 2026</title>
+<title>Tidö i opposition</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 :root{
@@ -127,6 +127,11 @@ tr[id]{scroll-margin-top:16px}
 tr:target td{background:var(--warn-soft)}
 .fric{color:var(--muted);font-size:12.5px;white-space:nowrap}
 tr.top td.rank:before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--pos);margin-right:5px;vertical-align:middle}
+main table th{white-space:normal;line-height:1.25}
+main em{color:var(--muted);font-size:.93em}
+.panel .chips{margin:2px 0 8px}
+.panel .kv{margin:8px 0 0;font-size:13.5px}
+.lvl-h{font-weight:600;color:var(--accent)}
 </style>
 </head>
 <body>
@@ -134,32 +139,34 @@ tr.top td.rank:before{content:"";display:inline-block;width:6px;height:6px;borde
 <div class="page">
 <nav class="toc" aria-label="Innehåll">
   <div class="lbl">Innehåll</div>
-  <a href="#linjer">1. Röda linjer</a>
-  <a href="#kvarstar">1.1 Vilka linjer kvarstår</a>
-  <a href="#lista">2. Samlad lista</a>
-  <a href="#lasning">2.1 Läsning</a>
-  <a href="#gap">2.2 Formelgap S–M</a>
-  <a href="#kostnad">2.3 Vad linjerna kostar</a>
-  <a href="#fall">2.4 Om linjen släpps</a>
-  <a href="#vstrikt">2.5 V:s beslut strikt</a>
-  <a href="#budget">3. Budget</a>
-  <a href="#axel-h">3.1 Finanspolitisk axel</a>
-  <a href="#budgetformel">3.2 Formel</a>
-  <a href="#budgetlista">3.3 Per alternativ</a>
-  <a href="#budgetlasning">3.4 Läsning</a>
-  <a href="#slutsats">4. Slutsatser</a>
-  <a href="#jamforelse-c">4.1 Fyra alternativ med C</a>
-  <a href="#signaler">5. Signaler</a>
+  <a href="index.html">← Regeringsalternativ</a>
+  <a href="#varianter">Tre varianter</a>
+  <a href="#aritmetik">1. Aritmetiken</a>
+  <a href="#oversikt">2. Verktygen i översikt</a>
+  <a href="#detalj">3. Verktygen i detalj</a>
+  <a href="#v-forsvara">3.1 Försvara det beslutade</a>
+  <a href="#v-cvagen">3.2 C-vägen</a>
+  <a href="#v-svagen">3.3 S-vägen</a>
+  <a href="#v-budget">3.4 Budgeten</a>
+  <a href="#v-kil">3.5 Kilfrågor och granskning</a>
+  <a href="#v-utskott">3.6 Utskotten</a>
+  <a href="#v-eu">3.7 EU-nämnden</a>
+  <a href="#v-marginal">3.8 Marginalen</a>
+  <a href="#v-misstroende">3.9 Misstroende</a>
+  <a href="#v-grundlag">3.10 Minoritetsskydd</a>
+  <a href="#v-utanfor">3.11 Utanför riksdagen</a>
+  <a href="#omraden">4. Område för område</a>
+  <a href="#nar-inte">5. Vad Tidöpartierna inte når</a>
+  <a href="#samlad-bed">6. Samlad bedömning</a>
   <a href="#metod">Metod</a>
-  <a href="tidopartiernas-verktyg-i-opposition-2026.html">Fördjupning: Tidö i opposition ↗</a>
 </nav>
 
 <main>
 <header>
-  <div class="eyebrow">Analys · 14 september 2026</div>
-  <h1>Regeringsalternativ efter valet 2026</h1>
-  <p class="lede">Alla tänkbara regeringsalternativ i en lista, sorterad efter hur sakpolitiskt nära partierna i kretsen står varandra. För varje alternativ: vilka partier som har en röd linje mot just den kombinationen, och genomförbarheten med och utan linjerna.</p>
-  <p class="sources">Bygger på <code>partisamarbete-ratingmodell-2026.md</code> (samarbetsvilja, sakpolitisk närhet, rollvärden, prioriteter) och <code>scenariomodell-formel.md</code> (formel, riksdagsaritmetik, genomförbarhet, sannolikheter). Dokumentet tillför en egen bedömning: hur troligt det är att varje röd linje släpps (avsnitt 1). Fördjupning: <a href="tidopartiernas-verktyg-i-opposition-2026.html">Tidöpartiernas verktyg i opposition</a>, om vad M, SD, KD och L kan få igenom mot en S-ledd regering.</p>
+  <div class="eyebrow">Fördjupning · 15 september 2026</div>
+  <h1>Tidöpartiernas verktyg i opposition mot en S-ledd regering 2026–2030</h1>
+  <p class="lede">Vilka sätt har M, SD, KD och L att få igenom så mycket som möjligt av sin politik när V, S, MP och C har regeringsmakten eller står bakom regeringen?</p>
+  <p class="sources">Bygger på <code>partisamarbete-ratingmodell-2026.md</code> (Del 2 sakpolitisk närhet, Del 4a prioriteter), <code>scenariomodell-formel.md</code> och <a href="index.html">regeringsalternativ-analysen</a> (avsnitt 1 röda linjer, avsnitt 3 budget). Uppgifter om riksdagens arbetsordning som inte är kontrollerade mot källtext är markerade med <em>(ej verifierat)</em>.</p>
 
   <div class="seats">
     <div class="seatbar" aria-label="Mandatfördelning 349 platser">
@@ -179,331 +186,913 @@ tr.top td.rank:before{content:"";display:inline-block;width:6px;height:6px;borde
       <div>L 19 · KD 22 · M 70 · SD 62 <b>173</b></div>
     </div>
   </div>
-  <p class="sources">Preliminärt resultat enligt underlaget, 94 % räknat. Vid 175/174 går E om A/B i sannolikhetsbedömningen; se <a href="#slutsats">slutsatsen</a>.</p>
+  <p class="sources">Mandat preliminära. V+S+MP+C 176, Tidö 173, S+V+MP 151, S+MP+C 147. Majoritet 175.</p>
 </header>
 
-<h2 id="linjer">1. Röda linjer</h2>
-<p>Sorterad efter hur troligt det är att linjen <b>kvarstår</b>, det vill säga fortfarande gäller när en regering har tillträtt eller ett nyval är utlyst. "Prövas" anger hur troligt det är att linjen alls blir avgörande i regeringsbildningen: en linje som ingen utmanar kvarstår billigt och säger lite om utfallet.</p>
-<div class="tabwrap"><table id="linjetab">
-<thead><tr><th>Parti</th><th>Röd linje</th><th>Effekt i modellen</th><th>Prövas</th><th class="num">Kvarstår</th><th class="num">Släpps</th><th>Motivering</th></tr></thead>
-<tbody>
-<tr id="linje-s-sd"><td><span class="chip S">S</span></td><td>Inget samarbete med SD</td><td>Del 1 S→SD = 1. Inga alternativ där både S och SD behövs</td><td>Låg</td><td class="num"><span class="pbar" style="--p:99%">99 %</span></td><td class="num">1 %</td><td>Del 1b: S→SD 1 utan intervall. Ingen aritmetik kräver att den prövas</td></tr>
-<tr id="linje-c-sd"><td><span class="chip C">C</span></td><td>Nej till regering som är beroende av SD</td><td>R = 6 för C i varje M-lett alternativ där SD behövs och C behövs</td><td>Låg</td><td class="num"><span class="pbar" style="--p:95%">95 %</span></td><td class="num">5 %</td><td>Del 1b: C→SD 1–2, når aldrig tröskeln. C lämnade Alliansen över frågan och har efter valet öppnat för samtal med S. Prövas bara om S-sidan misslyckas och M får försöka</td></tr>
-<tr id="linje-mp-karnkraft"><td><span class="chip MP">MP</span></td><td>Kan inte sitta i regering som bygger ny kärnkraft</td><td>Utesluter MP som regeringsparti tillsammans med L, KD eller M. MP tolererar i stället</td><td>Medel</td><td class="num"><span class="pbar" style="--p:90%">90 %</span></td><td class="num">10 %</td><td>Del 1b: MP→L 2–4, MP→KD 1–3. Kongressbunden. Prövas också i en S-regering, eftersom S vill möjliggöra ny kärnkraft. Kvarstår till stor del för att någon annan betalar. Sitter MP i en S-regering måste S avstå från nya reaktorer under mandatperioden; sitter MP utanför prövas linjen inte. I praktiken är det S:s kärnkraftslinje som släpps, i omkring 30 % av utfallen. En del av de 90 % innebär att MP lämnar regeringen under mandatperioden, om C och Tidöpartierna driver igenom kärnkraft i riksdagen, se 1.1</td></tr>
-<tr id="linje-c-v"><td><span class="chip C">C</span></td><td>Nej till regering där V har ministrar. Hellre nyval än V i regeringen</td><td>R = 6 för C i varje alternativ där V sitter i regeringen och C behövs. κ(C) = 1</td><td><b>Hög</b></td><td class="num"><span class="pbar" style="--p:85%">85 %</span></td><td class="num">15 %</td><td>Del 1b: C→V 1–4, högsta värdet över tröskeln 3. Uttalad med nyval som alternativ, vilket gör den dyr att backa från. C öppnar efter valet för samtal med S men upprepar villkoret att regeringen inte ska innebära en vänstersväng</td></tr>
-<tr id="linje-l-kd"><td><span class="chips"><span class="chip L">L</span><span class="chip KD">KD</span></span></td><td>Blocklojalitet. L har släppt motståndet mot SD i regeringen; KD har öppnat för S i sakfrågor men inte i regering</td><td>Kontextjusterad regeringsrisk: L 8, KD 7 i S-ledd regering</td><td><b>Hög</b></td><td class="num"><span class="pbar" style="--p:80%">80 %</span><span class="cf">L 80, KD 80</span></td><td class="num">20 %<span class="cf">KD tidigare 30</span></td><td>Del 1b: L→S 2–5, KD→S 3–6. KD sänkt från 30 till 20 % släpps: Busch sa den 2 september att KD röstar nej till Andersson "ända fram till ett nyval", ett besked lika dyrt att backa från som C:s. Linjen prövas direkt, eftersom E och alla S–M-alternativ kräver L eller KD. De två är starkt korrelerade: chansen att båda släpper är nära 15 %</td></tr>
-<tr id="linje-m-sd"><td><span class="chips"><span class="chip M">M</span><span class="chip SD">SD</span></span></td><td>Uppgörelse från april 2026: SD ska ingå i regeringen</td><td>Gör M-ledd regering utan SD-ministrar till ett brutet löfte. Markeras i listan men ger inget R-straff, eftersom det är ett löfte mellan M och SD, inte en linje mot ett tredje parti</td><td>Medel</td><td class="num"><span class="pbar" style="--p:80%">80 %</span></td><td class="num">20 %</td><td>Bryts bara om M erbjuds bilda regering utan SD. SD→M 9–10 håller priset nere, men löftet gavs före valet</td></tr>
-<tr id="linje-v"><td><span class="chip V">V</span></td><td>Regering om V:s röster behövs; aldrig stödparti utan inflytande</td><td>Del 3c: stödparti −3, regering +3, opposition +3. Ingen röd linje i formell mening, utan ett rollvärde som slår igenom oavsett</td><td><b>Hög</b></td><td class="num"><span class="pbar" style="--p:45%">45 %</span></td><td class="num">55 %<span class="cf">tidigare 50</span></td><td>Starkast formulerad av alla: kongressplattformen säger nej till att släppa fram en regering V inte ingår i, och V upprepade på valnatten att partiet då röstar nej till Andersson. Ändå den enda linje som troligare släpps än kvarstår: V har släppt fram S utan ministrar varje gång sedan 2014, valframgången gör det dyrare att få skulden för fyra år till med Tidö, och scenariomodellens A′/B′, D och A/B (58 %) förutsätter redan att V ger efter</td></tr>
-</tbody></table></div>
-
-<h3 id="kvarstar">1.1 Vilka linjer kvarstår</h3>
+<h2 id="varianter">Tre varianter</h2>
 <div class="two">
-<div class="panel"><h4>Säkra men sällan prövade</h4><p>S mot SD (99 %) och C mot SD-beroende (95 %). De kvarstår nästan säkert men avgör lite, eftersom få realistiska alternativ utmanar dem. MP:s kärnkraftslinje (90 %) prövas i varje S-regering där MP ingår, men håller för att S viker, se nedan.</p></div>
-<div class="panel"><h4>Prövas direkt och håller troligen</h4><p>C mot V-ministrar (85 %) och L:s och KD:s blocklojalitet (80 %). Det är de linjer som formar utfallet.</p></div>
-<div class="panel"><h4>Slantsinglingen</h4><p>V:s ministerkrav (45 %). Prövas säkert, och är den enda linje som troligare släpps än kvarstår.</p></div>
+<div class="panel"><h4>A · S+V+MP+C i regeringen</h4><span class="chips"><span class="chip S">S</span><span class="chip V">V</span><span class="chip MP">MP</span><span class="chip C">C</span></span><span class="seatn"> 176</span><dl class="kv"><dt>Utanför</dt><dd>–</dd><dt>I analysen</dt><dd>Ingen rad</dd><dt>Sannolikhet</dt><dd>Ej bedömd i scenariomodellen, men låg: C:s linje mot V-ministrar (85 % kvarstår) måste falla och C dessutom ta ministerposter</dd></dl></div>
+<div class="panel"><h4>B · S+V+MP med C-avtal</h4><span class="chips"><span class="chip S">S</span><span class="chip V">V</span><span class="chip MP">MP</span></span><span class="seatn"> 151</span><dl class="kv"><dt>Utanför</dt><dd><span class="chip C">C</span> med avtal: bundet inom avtalet, fritt utanför</dd><dt>I analysen</dt><dd><a href="index.html#samlad">Rad 17, C</a></dd><dt>Sannolikhet</dt><dd>3 %</dd></dl></div>
+<div class="panel"><h4>C · S+MP+C, V utanför</h4><span class="chips"><span class="chip S">S</span><span class="chip MP">MP</span><span class="chip C">C</span></span><span class="seatn"> 147</span><dl class="kv"><dt>Utanför</dt><dd><span class="chip V">V</span> med aktiv tolerans: släpper igenom budget och statsminister, i övrigt fritt</dd><dt>I analysen</dt><dd><a href="index.html#samlad">Rad 16, D</a></dd><dt>Sannolikhet</dt><dd>4 %</dd></dl></div>
 </div>
-<p><b>C och V kan inte båda stå fast om S ska regera på 176.</b> Utan L och KD kräver en S-ledd regering att minst en av C:s och V:s linjer faller. Med 85 och 45 % ger oberoende 38 % för att båda står fast. De är snarare negativt beroende, eftersom det parti som ser det andra stå fast har störst skäl att vika, så en rimligare siffra är 30 %. Står båda fast återstår S–M-axeln, en fortsatt Kristerssonregering på passiv tolerans, eller nyval. Det är mer än de 13 % som F har i scenariomodellen.</p>
-<p><b>MP:s linje håller genom att S ändrar sin.</b> S vill skapa förutsättningar för ny kärnkraft, MP kan inte sitta i en regering som bygger den. Båda kan inte stå fast med MP i regeringen, och MP:s linje är den som är kongressbunden. S:s hållning är däremot ingen röd linje, och det som troligast händer är att S avstår från nya statliga beslut och ny finansiering för reaktorer under mandatperioden men låter redan fattade beslut ligga. S-ledda alternativ där MP kan ingå (A′/B′, A/B, C, D) har 61 %; om MP sitter i regeringen i ungefär hälften av A′/B′ och A/B blir det omkring 34 %, och med 90 % för att MP står fast får S vika i omkring 30 % av utfallen. Sitter MP utanför behåller S sin linje, men MP:s röster behövs för budgeten och kärnkraften blir då en förhandlingsfråga utan att någon linje bryts.</p>
-<p><b>En S+MP-regering kan tvingas fram till kärnkraft, men då lämnar MP hellre regeringen.</b> Regeringen beslutade i juni 2026 att staten tar 60 % av Videberg Kraft, bolaget som ska bygga vid Ringhals, med statliga lån, prissäkring och risk- och vinstdelning. EU-kommissionen ska godkänna stödet och investeringsbeslutet väntas 2029–2030. En S+MP-regering ärver alltså ett statligt majoritetsägt projekt och får som ägare säga ja eller nej inom mandatperioden; att avbryta kostar avtalsbrott, vilket gör en ren paus dyrare än den ser ut.</p>
-<p>Riksdagen har dessutom en majoritet för kärnkraft utanför en S+MP-regering. För tillkännagivanden och lagstiftning på utskottsinitiativ räcker flest ja-röster: Tidöpartiernas 173 slår S+MP+V:s 151 om C lägger ner. C behöver alltså inte rösta för, bara avstå. Misstroende mot en minister kräver 175 ja och därmed att C röstar med Tidöpartierna. Tillkännagivanden kan regeringen låta ligga, som regeringarna Löfven och Andersson gjorde med många; en lag på utskottsinitiativ måste den verkställa. Då går MP:s linje inte att hålla i regeringen, och prejudikatet är november 2021, när MP lämnade regeringen hellre än att regera på M+KD+SD:s budget. Linjen kvarstår i det fallet, men MP blir stödparti och S regerar ensamt.</p>
-<div class="callout"><p>Det som avgör är därför energiklausulen i S:s avtal med C, inte förhandlingen mellan S och MP. Binder avtalet C att inte driva ny kärnkraft med Tidöpartierna under mandatperioden, till exempel inga nya statliga beslut, håller MP:s linje i regeringen. Lämnar avtalet energin fri kan C och Tidöpartierna tvinga fram den. C är för kärnkraft men har ingen egen röd linje i frågan, så klausulen är förhandlingsbar, och det är sannolikt en av de dyrare punkter S får betala C för.</p></div>
-<p><b>Konsistens med sannolikheterna i avsnitt 2.</b> Tre av linjerna går att stämma av mot scenariomodellen:</p>
+<div class="callout"><p>Variant B och C har låga sannolikheter var för sig, men de är rena former av de två troligaste S-ledda alternativen. I A′/B′ (30 %) och A/B (24 %) sitter S, eventuellt med MP, i regeringen, och både C och V står utanför med avtal eller tolerans. Tidöpartiernas verktyg där är summan av B och C: C-vägen från variant B och växelmajoriteterna och V:s misstroendehot från variant C.</p></div>
+
+<h2 id="aritmetik">1. Aritmetiken</h2>
+<p>Vanliga beslut i riksdagen, även budgeten, avgörs av flest ja-röster. Nedlagda röster räknas inte. Vid lika röstetal avgör lotten.</p>
 <div class="tabwrap"><table>
-<thead><tr><th>Linje</th><th>Scenarier som förutsätter att den släpps</th><th class="num">Deras sannolikhet</th><th class="num">Släpps (bedömd)</th><th>Stämmer?</th></tr></thead>
+<thead>
+<tr>
+<th>Läge</th>
+<th class="num">Regeringssidan</th>
+<th class="num">Tidö</th>
+<th>Utfall</th>
+</tr>
+</thead>
 <tbody>
-<tr><td><a href="#linje-c-v">C mot V-ministrar</a></td><td>C</td><td class="num">3 %</td><td class="num">15 %</td><td>Ja. Viktat bidrag 4,2 % enligt <a href="#fall">2.4</a></td></tr>
-<tr><td><a href="#linje-m-sd">M, SD: SD i regeringen</a></td><td>G2, G3</td><td class="num">cirka 3 %</td><td class="num">20 %</td><td>Ja</td></tr>
-<tr><td><a href="#linje-v">V:s ministerkrav</a></td><td>A′/B′, D, A/B</td><td class="num">58 %</td><td class="num">55 %</td><td>Nästan. Scenariomodellen är något mer optimistisk om V än bedömningen här</td></tr>
-<tr><td><a href="#linje-l-kd">L:s och KD:s blocklojalitet</a></td><td>E</td><td class="num">22 %</td><td class="num">cirka 15 %<span class="cf">att båda släpper</span></td><td><b class="neg">Nej.</b> E kan inte vara troligare än att både L och KD byter sida</td></tr>
-</tbody></table></div>
-<div class="callout"><p>E:s 22 % väger inte in Busch-beskedet fullt ut och bör sänkas till högst 15 %. De frigjorda procentenheterna hör främst hemma i F, i linje med resonemanget om C och V ovan. Scenariomodellen är inte omräknad i denna version; sannolikheterna i avsnitt 2 och 3 gäller läget före justeringen.</p></div>
-<p class="sources">Källor till beskeden efter valet: <a href="https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026?inlagg=9921e87d8857608bb79ee35589fbe1c1">Busch (KD), SVT 2 september</a>, <a href="https://www.vk.se/2026-09-13/v-da-rostar-vi-nej-till-magdalena-andersson-2e694">V röstar nej till Andersson, VK 13 september</a>, <a href="https://hurbra.se/c-s-regering-2026/">C öppnar för samtal med S</a>, <a href="https://hurbra.se/vansterpartiet-regeringskrav-14-september-2026/">V:s regeringskrav 14 september</a>, <a href="https://www.regeringen.se/pressmeddelanden/2026/06/nasta-stora-steg-for-ny-karnkraft-i-sverige/">Ringhals: staten majoritetsägare, Regeringen.se juni 2026</a>, <a href="https://www.energi.se/artiklar/2026/juni-2026/klart-med-villkoren-for-ny-karnkraft-i-ringhals--staten-blir-majoritetsagare/">Villkoren för Ringhals, Energiföretagen</a>.</p>
-<p>Utöver de uttalade linjerna räknas samarbetsviljan i Del 1 som ett straff där viljan är under 3 (Del1-straff, 2 poäng per steg under 3). Det anges i listan i grå text, till exempel "MP Del1 2" för MP→KD i scenario E. S↔M ligger på exakt 3 i båda riktningarna och ger därför inget straff, se <a href="#gap">2.2</a>.</p>
-
-<h2 id="lista">2. Samlad lista</h2>
-<p>Sorterad efter sakpolitisk närhet i regeringskretsen. Klicka på en kolumnrubrik för att sortera om; klicka igen för omvänd ordning. Röda linjer i tabellen länkar till avsnitt 1. Rader med positiv genomförbarhet med röda linjer är markerade. Radioknapparna filtrerar på om alternativet möter en röd linje.</p>
-<h3 id="former">Former av deltagande</h3>
-<p>Ett parti kan delta i ett alternativ på fyra sätt, från mest till minst bundet. Vilken form som krävs styrs av aritmetiken: en krets med egen majoritet behöver ingen tolerans, en krets som är större än varje motblock men under 175 behöver en passiv tolerant, och en smal krets behöver både någon som släpper igenom budgeten och någon som släpper fram statsministern.</p>
-<div class="tabwrap"><table id="roller">
-<thead><tr><th>Form</th><th>Vad partiet gör</th><th>Rollvärde i modellen (Del 3c)</th><th class="num">Faktor för politiskt genomslag</th><th>Kolumn i listan</th><th>Exempel</th></tr></thead>
-<tbody>
-<tr><td><b>Regeringsparti</b></td><td>Ministrar och kollektivt ansvar för hela politiken</td><td>Regeringsvärde</td><td class="num">0,7 som ledare, 0,5 som övrigt parti</td><td>Regering</td><td>M, KD, L på rad 1</td></tr>
-<tr><td><b>Samarbetspartner</b></td><td>Skriftligt avtal om politiken, inga ministrar. Röstar för budget och statsminister</td><td>Avtalsvärde</td><td class="num">0,4</td><td>Samarbetspartner</td><td>C på rad 11 och 15; SD på rad 4</td></tr>
-<tr><td><b>Aktiv tolerans</b></td><td>Inget avtal, men släpper igenom budgeten och röstar inte emot statsministern</td><td>Medel av avtals- och oppositionsvärde</td><td class="num">0,25</td><td>Tolerans, "aktiv"</td><td>SD på rad 1; V på rad 15 och 16</td></tr>
-<tr><td><b>Passiv tolerans</b></td><td>Lägger ner rösterna i statsministeromröstningen, i övrigt fri. Räcker för att inte fällas vid negativ parlamentarism</td><td>Oppositionsvärde</td><td class="num">0,15</td><td>Tolerans, "passiv"</td><td>C på rad 1 och 5; S på rad 2</td></tr>
-<tr><td><b>Opposition</b></td><td>Röstar emot statsminister och budget</td><td>Oppositionsvärde</td><td class="num">0</td><td>Ingår inte i alternativet</td><td>Alla övriga partier</td></tr>
-</tbody></table></div>
-<div class="tabctrl" role="radiogroup" aria-label="Filter på röd linje"><span class="tablbl">Visa</span><label for="mode-all"><input type="radio" name="redmode" id="mode-all" value="all" checked> Alla</label><label for="mode-red"><input type="radio" name="redmode" id="mode-red" value="red"> Endast röd linje</label><label for="mode-nored"><input type="radio" name="redmode" id="mode-nored" value="nored"> Inga röda linjer</label><span class="tabcount" id="rowcount"></span></div>
-<div class="tabwrap wide"><table id="samlad" class="sortable">
-<thead><tr>
-<th data-t="n" title="Ursprunglig plats i sakpolitisk ordning">#</th>
-<th data-t="s">Alternativ</th>
-<th class="num" data-t="n" title="Scenariomodellens avsnitt 6, vid 176/173 och 175/174. Andra raden: om partiet släpper sin röda linje, se 2.4">Sannolikhet</th>
-<th data-t="n" title="Partier med ministrar">Regering</th>
-<th data-t="n" title="Partier som stödjer regeringen med skriftligt avtal utan att sitta i den">Samarbets-<br>partner</th>
-<th data-t="s" title="Partier som släpper fram regeringen utan avtal: aktivt (röstar för i budget) eller passivt (lägger ner i statsministeromröstningen)">Tolerans</th>
-<th class="num" data-t="n" title="Regering plus avtalspartier">Mandat</th>
-<th class="num" data-t="n" title="Genomsnittlig parvis närhet i kretsen, 16 områden oviktat / viktat">Sak</th>
-<th class="num" data-t="n" title="Paret i kretsen som ligger längst ifrån varandra">Svagaste par</th>
-<th data-t="n" title="Parti med uttalad röd linje mot kombinationen. Grått: Del1-straff">Röd linje</th>
-<th class="num" data-t="n" title="Lägsta marginal mot nyval med röda linjer, Del1-straff och kontextjustering. Bindande parti inom parentes">Genomf. med</th>
-<th class="num" data-t="n" title="Samma utan röda linjer, Del1-straff och kontextjustering">utan</th>
-</tr></thead>
-<tbody>
-<tr><td class="rank" data-v="1">1</td><td data-v="g3: m+kd+l, sd aktiv, c passiv"><b>G3: M+KD+L, SD aktiv, C passiv</b></td><td class="num" data-v="4.0">4 % / 4 % (G1–G3)<br><span class="cf">≈ 20 % utan C:s linje</span></td><td data-v="3"><span class="chips"><span class="chip M">M</span><span class="chip KD">KD</span><span class="chip L">L</span></span></td><td data-v="0">–</td><td data-v="sd aktiv. c passiv">SD aktiv. C passiv</td><td class="num" data-v="111">111</td><td class="num" data-v="7.4375">7,4 / 7,5</td><td class="num" data-v="6.8">KD–L 6,8</td><td class="red" data-v="2"><a href="#linje-c-sd"><b>C</b>: nej till SD-beroende</a>; <a href="#linje-m-sd"><b>M, SD</b>: SD ska ingå i regeringen</a></td><td class="num neg" data-v="-3.95">−3,95 (C)</td><td class="num pos" data-v="1.75">+1,75 (SD)</td></tr>
-<tr><td class="rank" data-v="2">2</td><td data-v="g2: m+kd+l, s passiv"><b>G2: M+KD+L, S passiv</b></td><td class="num" data-v="4.0">4 % / 4 % (G1–G3)</td><td data-v="3"><span class="chips"><span class="chip M">M</span><span class="chip KD">KD</span><span class="chip L">L</span></span></td><td data-v="0">–</td><td data-v="s passiv">S passiv</td><td class="num" data-v="111">111</td><td class="num" data-v="7.4375">7,4 / 7,5</td><td class="num" data-v="6.8">KD–L 6,8</td><td class="red" data-v="0">–</td><td class="num neg" data-v="-99">+1,2 (S)<br><span class="fric">formateur faller</span></td><td class="num pos" data-v="1.2">+1,2 (S)</td></tr>
-<tr><td class="rank" data-v="3">3</td><td data-v="g1: m+kd+l+c, sd aktiv"><b>G1: M+KD+L+C, SD aktiv</b></td><td class="num" data-v="4.0">4 % / 4 % (G1–G3)<br><span class="cf">≈ 4,3 % utan C:s linje</span></td><td data-v="4"><span class="chips"><span class="chip M">M</span><span class="chip KD">KD</span><span class="chip L">L</span><span class="chip C">C</span></span></td><td data-v="0">–</td><td data-v="sd aktiv">SD aktiv</td><td class="num" data-v="136">136</td><td class="num" data-v="6.8438">6,8 / 6,8</td><td class="num" data-v="5.6">KD–C 5,6</td><td class="red" data-v="2"><a href="#linje-c-sd"><b>C</b>: nej till SD-beroende</a>; <a href="#linje-m-sd"><b>M, SD</b>: SD ska ingå i regeringen</a> <span class="fric">SD Del1 4</span></td><td class="num neg" data-v="-6.5">−6,5 (C)</td><td class="num neg" data-v="-0.5">−0,5 (C)</td></tr>
-<tr><td class="rank" data-v="4">4</td><td data-v="m+kd+l, sd-avtal, c passiv"><b>M+KD+L, SD-avtal, C passiv</b></td><td class="num" data-v="0">–<br><span class="cf">≈ 4,8 % utan C:s linje</span></td><td data-v="3"><span class="chips"><span class="chip M">M</span><span class="chip KD">KD</span><span class="chip L">L</span></span></td><td data-v="1"><span class="chips"><span class="chip SD">SD</span></span></td><td data-v="c passiv">C passiv</td><td class="num" data-v="173">173</td><td class="num" data-v="6.5000">6,5 / 6,6</td><td class="num" data-v="4.5">L–SD 4,5</td><td class="red" data-v="2"><a href="#linje-c-sd"><b>C</b>: nej till SD-beroende</a>; <a href="#linje-m-sd"><b>M, SD</b>: SD ska ingå i regeringen</a> <span class="fric">C Del1 4</span></td><td class="num neg" data-v="-7.95">−7,95 (C)</td><td class="num pos" data-v="2.05">+2,05 (C)</td></tr>
-<tr><td class="rank" data-v="5">5</td><td data-v="tidö: m+sd+kd+l, c passiv"><b>Tidö: M+SD+KD+L, C passiv</b></td><td class="num" data-v="0">–<br><span class="cf">≈ 4,8 % utan C:s linje</span></td><td data-v="4"><span class="chips"><span class="chip M">M</span><span class="chip SD">SD</span><span class="chip KD">KD</span><span class="chip L">L</span></span></td><td data-v="0">–</td><td data-v="c passiv">C passiv</td><td class="num" data-v="173">173</td><td class="num" data-v="6.5000">6,5 / 6,6</td><td class="num" data-v="4.5">SD–L 4,5</td><td class="red" data-v="1"><a href="#linje-c-sd"><b>C</b>: nej till SD-beroende</a> <span class="fric">C Del1 4</span></td><td class="num neg" data-v="-7.95">−7,95 (C)</td><td class="num neg" data-v="-0.5">−0,5 (SD)</td></tr>
-<tr><td class="rank" data-v="6">6</td><td data-v="m+sd, avtal kd och l, c passiv"><b>M+SD, avtal KD och L, C passiv</b></td><td class="num" data-v="0">–<br><span class="cf">≈ 4,8 % utan C:s linje</span></td><td data-v="2"><span class="chips"><span class="chip M">M</span><span class="chip SD">SD</span></span></td><td data-v="2"><span class="chips"><span class="chip KD">KD</span><span class="chip L">L</span></span></td><td data-v="c passiv">C passiv</td><td class="num" data-v="173">173</td><td class="num" data-v="6.5000">6,5 / 6,6</td><td class="num" data-v="4.5">SD–L 4,5</td><td class="red" data-v="1"><a href="#linje-c-sd"><b>C</b>: nej till SD-beroende</a> <span class="fric">C Del1 4</span></td><td class="num neg" data-v="-7.95">−7,95 (C)</td><td class="num neg" data-v="-0.5">−0,5 (SD)</td></tr>
-<tr class="top"><td class="rank" data-v="7">7</td><td data-v="s+m+l+kd"><b>S+M+L+KD</b></td><td class="num" data-v="0">–</td><td data-v="4"><span class="chips"><span class="chip S">S</span><span class="chip M">M</span><span class="chip L">L</span><span class="chip KD">KD</span></span></td><td data-v="0">–</td><td data-v="–">–</td><td class="num" data-v="211">211</td><td class="num" data-v="6.1771">6,2 / 6,2</td><td class="num" data-v="4.8">S–KD 4,8</td><td class="red" data-v="0">–</td><td class="num pos" data-v="5.0">+5 (KD)</td><td class="num pos" data-v="9.0">+9 (KD)</td></tr>
-<tr class="top"><td class="rank" data-v="8">8</td><td data-v="s+m+l"><b>S+M+L</b></td><td class="num" data-v="0">–</td><td data-v="3"><span class="chips"><span class="chip S">S</span><span class="chip M">M</span><span class="chip L">L</span></span></td><td data-v="0">–</td><td data-v="–">–</td><td class="num" data-v="189">189</td><td class="num" data-v="5.8542">5,9 / 5,8</td><td class="num" data-v="4.9">S–M 4,9</td><td class="red" data-v="0">–</td><td class="num pos" data-v="6.0">+6 (L)</td><td class="num pos" data-v="10.0">+10 (L)</td></tr>
-<tr class="top"><td class="rank" data-v="9">9</td><td data-v="s+m+kd"><b>S+M+KD</b></td><td class="num" data-v="0">–</td><td data-v="3"><span class="chips"><span class="chip S">S</span><span class="chip M">M</span><span class="chip KD">KD</span></span></td><td data-v="0">–</td><td data-v="–">–</td><td class="num" data-v="192">192</td><td class="num" data-v="5.8542">5,9 / 5,9</td><td class="num" data-v="4.8">S–KD 4,8</td><td class="red" data-v="0">–</td><td class="num pos" data-v="5.0">+5 (KD)</td><td class="num pos" data-v="9.0">+9 (KD)</td></tr>
-<tr class="top"><td class="rank" data-v="10">10</td><td data-v="s+m, l-avtal"><b>S+M, L-avtal</b></td><td class="num" data-v="0">–</td><td data-v="2"><span class="chips"><span class="chip S">S</span><span class="chip M">M</span></span></td><td data-v="1"><span class="chips"><span class="chip L">L</span></span></td><td data-v="–">–</td><td class="num" data-v="189">189</td><td class="num" data-v="5.8542">5,9 / 5,8</td><td class="num" data-v="4.9">S–M 4,9</td><td class="red" data-v="0">–</td><td class="num pos" data-v="3.4">+3,4 (L)</td><td class="num pos" data-v="3.4">+3,4 (L)</td></tr>
-<tr class="top"><td class="rank" data-v="11">11</td><td data-v="e: s+l+kd, c-avtal"><b>E: S+L+KD, C-avtal</b></td><td class="num" data-v="22.0">22 % / 25 %</td><td data-v="3"><span class="chips"><span class="chip S">S</span><span class="chip L">L</span><span class="chip KD">KD</span></span></td><td data-v="1"><span class="chips"><span class="chip C">C</span></span></td><td data-v="mp, v passiv">MP, V passiv</td><td class="num" data-v="166">166</td><td class="num" data-v="5.6979">5,7 / 5,6</td><td class="num" data-v="4.8">S–KD 4,8</td><td class="red" data-v="0">– <span class="fric">MP Del1 2, V Del1 4</span></td><td class="num pos" data-v="2.2">+2,2 (MP)</td><td class="num pos" data-v="4.2">+4,2 (MP)</td></tr>
-<tr class="top"><td class="rank" data-v="12">12</td><td data-v="s+l+kd utan avtal"><b>S+L+KD utan avtal</b></td><td class="num" data-v="0">–</td><td data-v="3"><span class="chips"><span class="chip S">S</span><span class="chip L">L</span><span class="chip KD">KD</span></span></td><td data-v="0">–</td><td data-v="c, mp, v passiv">C, MP, V passiv</td><td class="num" data-v="141">141</td><td class="num" data-v="5.5625">5,6 / 5,5</td><td class="num" data-v="4.8">S–KD 4,8</td><td class="red" data-v="0">– <span class="fric">MP Del1 2, V Del1 4</span></td><td class="num pos" data-v="2.05">+2,05 (C)</td><td class="num pos" data-v="4.05">+4,05 (V)</td></tr>
-<tr><td class="rank" data-v="13">13</td><td data-v="s+m+c"><b>S+M+C</b></td><td class="num" data-v="0">–</td><td data-v="3"><span class="chips"><span class="chip S">S</span><span class="chip M">M</span><span class="chip C">C</span></span></td><td data-v="0">–</td><td data-v="–">–</td><td class="num" data-v="195">195</td><td class="num" data-v="5.4583">5,5 / 5,3</td><td class="num" data-v="4.9">S–M 4,9</td><td class="red" data-v="0">–</td><td class="num neg" data-v="-0.5">−0,5 (C)</td><td class="num neg" data-v="-0.5">−0,5 (C)</td></tr>
-<tr class="top"><td class="rank" data-v="14">14</td><td data-v="s+m, c-avtal"><b>S+M, C-avtal</b></td><td class="num" data-v="0">–</td><td data-v="2"><span class="chips"><span class="chip S">S</span><span class="chip M">M</span></span></td><td data-v="1"><span class="chips"><span class="chip C">C</span></span></td><td data-v="–">–</td><td class="num" data-v="195">195</td><td class="num" data-v="5.4583">5,5 / 5,3</td><td class="num" data-v="4.9">S–M 4,9</td><td class="red" data-v="0">–</td><td class="num pos" data-v="4.8">+4,8 (C)</td><td class="num pos" data-v="4.8">+4,8 (C)</td></tr>
-<tr class="top"><td class="rank" data-v="15">15</td><td data-v="a′/b′: s(+mp), c-avtal, v aktiv"><b>A′/B′: S(+MP), C-avtal, V aktiv</b></td><td class="num" data-v="30.0">30 % / 27 %</td><td data-v="2"><span class="chips"><span class="chip S">S</span><span class="chip MP">MP</span></span></td><td data-v="1"><span class="chips"><span class="chip C">C</span></span></td><td data-v="v aktiv">V aktiv</td><td class="num" data-v="147">147</td><td class="num" data-v="5.3542">5,4 / 5,2</td><td class="num" data-v="5.1">S–C 5,1</td><td class="red" data-v="0">–</td><td class="num pos" data-v="1.75">+1,75 (V)<br><span class="cf">−1,25 (V) om V:s beslut läses strikt, <a href="#vstrikt">se 2.5</a></span></td><td class="num pos" data-v="1.75">+1,75 (V)</td></tr>
-<tr><td class="rank" data-v="16">16</td><td data-v="d: s+mp+c, v aktiv"><b>D: S+MP+C, V aktiv</b></td><td class="num" data-v="4.0">4 % / 4 %</td><td data-v="3"><span class="chips"><span class="chip S">S</span><span class="chip MP">MP</span><span class="chip C">C</span></span></td><td data-v="0">–</td><td data-v="v aktiv">V aktiv</td><td class="num" data-v="147">147</td><td class="num" data-v="5.3542">5,4 / 5,2</td><td class="num" data-v="5.1">S–C 5,1</td><td class="red" data-v="0">–</td><td class="num neg" data-v="-0.5">−0,5 (C)<br><span class="cf">−1,25 (V) om V:s beslut läses strikt, <a href="#vstrikt">se 2.5</a></span></td><td class="num neg" data-v="-0.5">−0,5 (C)</td></tr>
-<tr><td class="rank" data-v="17">17</td><td data-v="c: s+mp+v, c-avtal"><b>C: S+MP+V, C-avtal</b></td><td class="num" data-v="3.0">3 % / 3 %<br><span class="cf">≈ 28 % utan C:s linje</span></td><td data-v="3"><span class="chips"><span class="chip S">S</span><span class="chip MP">MP</span><span class="chip V">V</span></span></td><td data-v="1"><span class="chips"><span class="chip C">C</span></span></td><td data-v="–">–</td><td class="num" data-v="176">176</td><td class="num" data-v="5.2188">5,2 / 5,2</td><td class="num" data-v="3.4">V–C 3,4</td><td class="red" data-v="1"><a href="#linje-c-v"><b>C</b>: nej till V-ministrar</a> <span class="fric">C Del1 2</span></td><td class="num neg" data-v="-3.2">−3,2 (C)</td><td class="num pos" data-v="4.8">+4,8 (C)</td></tr>
-<tr><td class="rank" data-v="18">18</td><td data-v="a/b: s(+mp), avtal v och c"><b>A/B: S(+MP), avtal V och C</b></td><td class="num" data-v="24.0">24 % / 22 %</td><td data-v="2"><span class="chips"><span class="chip S">S</span><span class="chip MP">MP</span></span></td><td data-v="2"><span class="chips"><span class="chip V">V</span><span class="chip C">C</span></span></td><td data-v="–">–</td><td class="num" data-v="176">176</td><td class="num" data-v="5.2188">5,2 / 5,2</td><td class="num" data-v="3.4">V–C 3,4</td><td class="red" data-v="0">– <span class="fric">C Del1 2</span></td><td class="num neg" data-v="-0.2">−0,2 (V)</td><td class="num neg" data-v="-0.2">−0,2 (V)</td></tr>
-<tr class="top"><td class="rank" data-v="19">19</td><td data-v="s+m, passiv tolerans"><b>S+M, passiv tolerans</b></td><td class="num" data-v="0">–</td><td data-v="2"><span class="chips"><span class="chip S">S</span><span class="chip M">M</span></span></td><td data-v="0">–</td><td data-v="någon av c, mp, v, kd, l passiv">någon av C, MP, V, KD, L passiv</td><td class="num" data-v="170">170</td><td class="num" data-v="4.8750">4,9 / 4,8</td><td class="num" data-v="4.9">S–M 4,9</td><td class="red" data-v="0">– <span class="fric">MP Del1 2, V Del1 2</span></td><td class="num pos" data-v="2.2">+2,2 (MP)</td><td class="num pos" data-v="4.2">+4,2 (MP)</td></tr>
-<tr><td class="rank" data-v="20">20</td><td data-v="f: nyval"><b>F: nyval eller låsning</b></td><td class="num" data-v="13">13 % / 15 %</td><td data-v="0">–</td><td data-v="0">–</td><td data-v="–">–</td><td class="num" data-v="0">–</td><td class="num" data-v="0">–</td><td class="num" data-v="0"></td><td class="red" data-v="0">–</td><td class="num" data-v="0">0 (referens)</td><td class="num" data-v="0">0 (referens)</td></tr>
-</tbody></table></div>
-<p class="sources">Sak = oviktat snitt / viktat med Del 2a′. Genomförbarhet = lägsta marginal mot nyval bland de partier vars ja eller tolerans krävs; bindande parti inom parentes. Sannolikhet anges bara för alternativ som scenariomodellen bedömt. Sorteringsnyckel för "Regering" är antal regeringspartier, för "Röd linje" antal partier med linje.</p>
-
-<h3 id="lasning">2.1 Läsning av listan</h3>
-<div class="callout">
-<p><b>Sakpolitik och genomförbarhet pekar åt olika håll.</b> De sex alternativ som ligger högst sakpolitiskt (7,4 ned till 6,5) är alla M-ledda och alla blockerade: av C:s linje mot SD-beroende, eller i G2:s fall av att S inte kan tolerera en M-ledd regering utan att fälla den i formateurskedet. Sorteringen är nästan omvänd mot sannolikheten.</p>
-</div>
-<p><b>M-lett skikt (rad 1–6).</b> Tas C:s linje bort blir bara två av dem genomförbara, G3 (+1,75) och M+KD+L med SD-avtal (+2,05), och båda binds då av SD:s eller C:s smala marginal. Alternativen med SD i regeringen, Tidö och M+SD, faller även utan röda linjer på SD:s egen kalkyl: regeringsnetto +1 mot oppositionsnetto +6 enligt Del 3c ger −0,5. M-ledd regering är svag av aritmetik och rollvärden, inte bara av C:s linje.</p>
-<p><b>S–M-skikt (rad 7–10, 13–14, 19).</b> Sakpolitiskt starkare än det faktiska majoritetsblocket: S+M+L+KD ligger på 6,2 och S+M+L på 5,9, mot 5,2 för S+MP+V+C. Svagaste paret är S–M (4,9) eller S–KD (4,8), bättre än V–C (3,4). Ingen av konstellationerna har en uttalad röd linje, och formeln ger dem samma genomförbarhet med som utan linjer, bortsett från kontextjusteringen för L och KD. Att de ändå inte finns i scenariomodellen beror på Del 1: S→M = 3 och M→S = 3, exakt vid straffgränsen. Se <a href="#gap">2.2</a>.</p>
-<p><b>E (rad 11)</b> är det sakpolitiskt starkaste alternativ som är genomförbart med röda linjer: 5,7 oviktat, S–KD 4,8 som svagaste par, +2,2 bundet av MP:s passiva tolerans. E har ingen röd linje, bara Del1-friktion (MP→KD 2, V→L/KD 4). Utan friktionen stiger E till +4,2.</p>
-<p><b>V-skiktet (rad 15–18)</b> ligger lägst sakpolitiskt bland de S-ledda. A′/B′ och A/B ligger på 5,4 respektive 5,2, och i A/B och scenario C är V–C (3,4) det svagaste paret i hela listan. Ändå har A′/B′ och A/B högst bedömd sannolikhet, eftersom de är de enda majoritetsalternativen som inte kräver att något parti byter block eller bryter en linje. Scenario C (rad 17) är sakpolitiskt identiskt med A/B men blockerat av C:s linje mot V-ministrar; utan den stiger det från −3,2 till +4,8.</p>
-<p><b>Sammantaget</b> visar listan tre skikt. Ett sakpolitiskt sammanhållet M-lett skikt som saknar aritmetik och blockeras av C. Ett S–M-skikt som är sakpolitiskt möjligt och rollmässigt starkt men utesluts av ömsesidig ovilja. Och ett S-lett skikt med V eller med L och KD, som är sakpolitiskt svagast men det enda som är genomförbart som saker och ting står.</p>
-
-<h3 id="gap">2.2 Formelgap: S–M utan Del1-straff</h3>
-<p>Del1-straffet är 2 × max(0, 3 − vilja). S→M och M→S är båda 3, alltså noll straff. Formeln skiljer därför inte S+M+L (+6,0 med röda linjer) från ett alternativ där S och M faktiskt vill regera ihop. Scenariomodellen hanterar det genom att utesluta S–M-konstellationer per antagande (avsnitt 3, blocklogik), inte genom formeln. I listan visas S–M-alternativen därför med den genomförbarhet formeln ger, men utan sannolikhet.</p>
-<p>Att sätta tröskeln till 4 i stället för 3 skulle ge S och M ett straff på 2 vardera och sänka S+M+L till +4,0, fortfarande högst bland alla alternativ med röda linjer. Om S–M-axeln ska hållas utanför måste det göras med ett uttalat antagande, inte med Del 1.</p>
-
-<h3 id="kostnad">2.3 Vilka röda linjer kostar mest</h3>
-<p>Skillnaden mellan kolumnerna "med" och "utan", uttryckt som hur mycket genomförbarhet en linje tar bort.</p>
+<tr>
+<td>Variant A, alla närvarande</td>
+<td class="num">176</td>
+<td class="num">173</td>
+<td>Regeringen vinner med 3</td>
+</tr>
+<tr>
+<td>Variant A, 2 från regeringssidan röstar med Tidö</td>
+<td class="num">174</td>
+<td class="num">175</td>
+<td>Tidö vinner</td>
+</tr>
+<tr>
+<td>Variant A, 3 från regeringssidan avstår</td>
+<td class="num">173</td>
+<td class="num">173</td>
+<td>Lotten avgör</td>
+</tr>
+<tr>
+<td>Variant B, fråga inom C-avtalet</td>
+<td class="num">176</td>
+<td class="num">173</td>
+<td>Regeringen vinner med 3</td>
+</tr>
+<tr>
+<td>Variant B, fråga utanför avtalet, <b>C avstår</b></td>
+<td class="num">151</td>
+<td class="num">173</td>
+<td><b>Tidö vinner</b></td>
+</tr>
+<tr>
+<td>Variant B, fråga utanför avtalet, C röstar med Tidö</td>
+<td class="num">151</td>
+<td class="num">198</td>
+<td>Tidö vinner med egen majoritet</td>
+</tr>
+<tr>
+<td>Variant C, V röstar med regeringen</td>
+<td class="num">176</td>
+<td class="num">173</td>
+<td>Regeringen vinner med 3</td>
+</tr>
+<tr>
+<td>Variant C, <b>V avstår</b></td>
+<td class="num">147</td>
+<td class="num">173</td>
+<td><b>Tidö vinner</b></td>
+</tr>
+<tr>
+<td>Variant C, regeringen gör upp med M, KD och L</td>
+<td class="num">258</td>
+<td class="num">–</td>
+<td>Regeringen vinner utan V</td>
+</tr>
+</tbody>
+</table></div>
+<p>I variant B räcker det att C lägger ner rösterna, vilket är billigt för C på frågor där C står närmare Tidö. I variant C räcker det formellt att V lägger ner rösterna, men V står längre från Tidöpartierna än från regeringen på alla sexton områdena i Del 2, så det händer i praktiken bara som protest. Det viktiga i variant C är i stället den sista raden: en minoritetsregering på 147 behöver alltid röster utifrån och kan välja Tidöpartiernas.</p>
+<p>Vissa beslut har särskilda krav:</p>
 <div class="tabwrap"><table>
-<thead><tr><th>Röd linje eller friktion</th><th>Alternativ som blockeras</th><th class="num">Genomförbarhet utan → med</th></tr></thead>
+<thead>
+<tr>
+<th>Beslut</th>
+<th>Krav</th>
+<th>Variant A</th>
+<th>Variant B</th>
+<th>Variant C</th>
+</tr>
+</thead>
 <tbody>
-<tr><td>Blocklogik S–M (antagande i scenariomodellen, inte formel)</td><td>S+M+L, S+M+L+KD, S+M+KD, S+M med C-avtal</td><td class="num">+10,0 / +9,0 / +9,0 / +4,8 → formeln ger +6,0 / +5,0 / +5,0 / +4,8, ingen sannolikhet</td></tr>
-<tr><td>C mot V-ministrar</td><td>Scenario C (S+MP+V, C-avtal)</td><td class="num"><span class="pos">+4,8</span> → <span class="neg">−3,2</span></td></tr>
-<tr><td>C mot SD-beroende</td><td>G3, G1, M+KD+L med SD-avtal, Tidö, M+SD</td><td class="num"><span class="pos">+1,75 / +2,05</span>, −0,5 → <span class="neg">−3,95 / −6,5 / −7,95</span></td></tr>
-<tr><td>S mot M-ledd regering (formateurvillkor)</td><td>G2</td><td class="num"><span class="pos">+1,2</span> → faller</td></tr>
-<tr><td>L:s och KD:s blocklojalitet (kontextjustering)</td><td>E, S–M-axeln</td><td class="num">L +10,0 → +6,0, KD +9,0 → +5,0. Ingen effekt på E, men på S–M-axeln</td></tr>
-<tr><td>MP→KD och V→L/KD (Del1-straff)</td><td>E, S+L+KD utan avtal</td><td class="num">MP +4,2 → +2,2; V +4,05 → +0,05</td></tr>
-<tr><td>C→V (Del1-straff)</td><td>A/B</td><td class="num">C +4,8 → +2,8, ingen effekt på genomförbarhet</td></tr>
-</tbody></table></div>
-<p>Den dyraste "linjen" är inte uttalad av något parti utan består av att S och M inte vill ha varandra. Den näst dyraste är C:s linje mot V-ministrar. C:s linje mot SD-beroende kostar mindre än den ser ut att göra, eftersom M-ledda alternativ är svaga också utan den.</p>
-
-<h3 id="fall">2.4 Sannolikhet om linjen släpps</h3>
-<p>Kolumnen Sannolikhet visar för de sex alternativ som möter en röd linje även en andra rad, markerad "utan X:s linje": vad sannolikheten skulle bli om det parti som håller linjen bortsåg från just den, allt annat lika. Siffran är formelbaserad, inte bedömd, och räknas i tre steg.</p>
+<tr>
+<td>Lag, tillkännagivande, budget</td>
+<td>Fler ja än nej</td>
+<td>Avhoppare eller frånvaro på regeringssidan</td>
+<td>C:s nedlagda röster utanför avtalet</td>
+<td>V:s nedlagda röster, eller regeringen väljer Tidöpartiernas röster</td>
+</tr>
+<tr>
+<td>Misstroende mot statsminister eller statsråd (RF 13:4)</td>
+<td>175 ja</td>
+<td>Tidö + 2 från regeringssidan</td>
+<td>Tidö + C (198), C:s beslut</td>
+<td><b>Tidö + V (202)</b>, V:s beslut</td>
+</tr>
+<tr>
+<td>Väcka misstroendeyrkande</td>
+<td>35 ledamöter</td>
+<td>Tidöpartierna kan</td>
+<td>Tidöpartierna kan</td>
+<td>Tidöpartierna kan</td>
+</tr>
+<tr>
+<td>Vilandeförklaring av lag som begränsar fri- och rättigheter (RF 2:22)</td>
+<td>10 ledamöter. Hävs av 5/6 av de röstande</td>
+<td>Kan</td>
+<td>Kan</td>
+<td>Kan</td>
+</tr>
+<tr>
+<td>Folkomröstning om vilande grundlagsändring (RF 8:16)</td>
+<td>35 yrkar, 117 bifaller</td>
+<td>Kan</td>
+<td>Kan</td>
+<td>Kan</td>
+</tr>
+<tr>
+<td>Andra beslutet om en grundlagsändring</td>
+<td>Enkel majoritet</td>
+<td>Regeringssidan avgör</td>
+<td>C avgör</td>
+<td>V avgör, eller regeringen och Tidö tillsammans</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="oversikt">2. Verktygen i översikt</h2>
+<p>Effekten är en egen bedömning av hur mycket Tidöpolitik verktyget kan bevara eller föra igenom under mandatperioden.</p>
+<div class="tabwrap"><table>
+<thead>
+<tr>
+<th class="num">#</th>
+<th>Verktyg</th>
+<th>A: C i reg., V i reg.</th>
+<th>B: C avtal, V i reg.</th>
+<th>C: C i reg., V utanför</th>
+<th>Vad det ger</th>
+<th>Avsnitt</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="num">1</td>
+<td>Försvara det som redan är beslutat</td>
+<td><b>Hög</b></td>
+<td><b>Hög</b></td>
+<td><b>Hög</b></td>
+<td>Tidölagar gäller tills en majoritet river dem, och det tar tid</td>
+<td><a href="#v-forsvara">3.1</a></td>
+</tr>
+<tr>
+<td class="num">2</td>
+<td>C-vägen: majoritet med C utanför avtalet</td>
+<td>–</td>
+<td><b>Hög</b></td>
+<td>–</td>
+<td>Ny lagstiftning och tillkännagivanden där C står närmare Tidö</td>
+<td><a href="#v-cvagen">3.2</a></td>
+</tr>
+<tr>
+<td class="num">3</td>
+<td>S-vägen och växelmajoriteter</td>
+<td>Medel</td>
+<td>Medel</td>
+<td><b>Hög</b>, bromsas av MP</td>
+<td>Försvar, brott, migration, EU och energi med regeringen, förbi V</td>
+<td><a href="#v-svagen">3.3</a></td>
+</tr>
+<tr>
+<td class="num">4</td>
+<td>Budgetalternativ</td>
+<td>Låg</td>
+<td><b>Medel</b></td>
+<td>Låg</td>
+<td>Tidöbudget när den som står utanför avstår, som 2021</td>
+<td><a href="#v-budget">3.4</a></td>
+</tr>
+<tr>
+<td class="num">5</td>
+<td>Kilfrågor, tillkännagivanden och granskning</td>
+<td>Medel</td>
+<td>Hög</td>
+<td>Medel</td>
+<td>Synliga splittringar och politiska kostnader</td>
+<td><a href="#v-kil">3.5</a></td>
+</tr>
+<tr>
+<td class="num">6</td>
+<td>Utskottsmajoriteter</td>
+<td>Regeringssidan 9 av 17</td>
+<td>Tidö 9 av 17 om C går separat</td>
+<td>Tidö 9 av 17 om V går separat</td>
+<td>Utskottets förslag i stället för reservation, och utskottsinitiativ</td>
+<td><a href="#v-utskott">3.6</a></td>
+</tr>
+<tr>
+<td class="num">7</td>
+<td>EU-nämnden</td>
+<td>Låg</td>
+<td>Medel</td>
+<td>Medel</td>
+<td>Regeringens linje i ministerrådet, för M och L</td>
+<td><a href="#v-eu">3.7</a></td>
+</tr>
+<tr>
+<td class="num">8</td>
+<td>Marginalen: frånvaro, kvittning, avhoppare</td>
+<td><b>Medel</b></td>
+<td>Låg</td>
+<td>Låg</td>
+<td>Enstaka voteringar när marginalen är 3</td>
+<td><a href="#v-marginal">3.8</a></td>
+</tr>
+<tr>
+<td class="num">9</td>
+<td>Misstroende</td>
+<td>Låg</td>
+<td>Låg</td>
+<td><b>Medel</b>, V avgör</td>
+<td>Press, och i variant C ett verkligt hot mot regeringen</td>
+<td><a href="#v-misstroende">3.9</a></td>
+</tr>
+<tr>
+<td class="num">10</td>
+<td>Grundlagens minoritetsskydd</td>
+<td>Låg</td>
+<td>Låg</td>
+<td>Låg</td>
+<td>Fördröjning och folkomröstning, inte genomslag</td>
+<td><a href="#v-grundlag">3.10</a></td>
+</tr>
+<tr>
+<td class="num">11</td>
+<td>Utanför riksdagen</td>
+<td>Medel</td>
+<td>Medel</td>
+<td>Medel</td>
+<td>Kommuner, regioner och pågående statliga åtaganden</td>
+<td><a href="#v-utanfor">3.11</a></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="detalj">3. Verktygen i detalj</h2>
+<h3 id="v-forsvara">3.1 Försvara det som redan är beslutat</h3>
+<p>Den starkaste positionen är passiv, och den är lika stark i alla tre varianterna. Allt som Tidöregeringen fått igenom 2022–2026 gäller tills riksdagen river det, och en regering som vill riva måste utreda, remittera, gå via Lagrådet och lägga en proposition. För en större lag tar det i regel ett och ett halvt till tre år <em>(egen bedömning av normal lagstiftningstakt)</em>. Lagar som Tidöpartierna beslutat med senarelagt ikraftträdande träder i kraft om ingen aktivt stoppar dem.</p>
+<p>Rivningen kräver dessutom en majoritet, och den finns inte på alla områden:</p>
+<ul>
+<li><b>Rättsväsende och migration</b> är Tidöpartiernas högsta prioriteringar (8,8 och 8,1 i Del 4a, mandatviktat). Där står S närmare M än något annat parti (S–M 7 på båda), och S har själv rättsväsende 8 och migration 7 i prioritet. S vill inte riva straffskärpningarna och troligen inte huvuddragen i migrationspolitiken. C står visserligen längre från Tidö på migration (C–M 3) än S gör, men utan S finns ingen rivningsmajoritet i någon variant.</li>
+<li><b>Kärnkraft.</b> Staten äger sedan juni 2026 60 % av Videberg Kraft, bolaget som ska bygga vid Ringhals. Att avbryta kostar avtalsbrott, och S och C är för kärnkraft, se <a href="index.html#kvarstar">regeringsalternativ-analysen avsnitt 1.1</a>.</li>
+<li><b>Skatter.</b> Tidöregeringens skattesänkningar ligger i den löpande budgeten. Att höja dem igen kräver att C går med på det, och C står på skatter närmare Tidö (6,7) än S, V och MP (3,3).</li>
+</ul>
+<p>Det Tidöpartierna ska göra är att inte bjuda in till rivning: inga nya förslag på de här områdena som tvingar S att välja sida, bara motstånd när regeringen själv föreslår ändringar.</p>
+<h3 id="v-cvagen">3.2 C-vägen</h3>
+<p>Finns bara i variant B, där C är fritt utanför avtalet. I variant A och C sitter C i regeringen och är bundet i allt.</p>
+<p>På varje fråga utanför avtalet räcker det att Tidöpartierna lägger ett förslag som C inte vill rösta emot. C behöver inte rösta för; det räcker att C avstår. Förslaget kan ta tre former:</p>
 <ol>
-<li>Genomförbarheten räknas om utan R-straffet för linjen men med Del1-straff och kontextjustering kvar ("utan linjen" nedan). Det är inte samma sak som kolumnen "utan" i listan, som tar bort alla tre.</li>
-<li>Sambandet mellan genomförbarhet och bedömd sannolikhet kalibreras på de sex enskilt bedömda scenarierna i scenariomodellens avsnitt 6 (A′/B′, A/B, E, D, C och F vid 176/173): ln p = 2,45 + 0,42 × g, R² = 0,68. En marginalpoäng motsvarar ungefär en faktor 1,5 i sannolikhet.</li>
-<li>Alternativets nya sannolikhet sätts från sambandet, och de övriga bedömda sannolikheterna skalas ned proportionellt så att summan förblir 100 %. G3 och G1 antas i utgångsläget dela G-klumpens 4 % som 3 respektive 1 %. Tidö och SD-avtalsalternativen har 0 i utgångsläget eftersom scenariomodellen inte bedömt dem.</li>
+<li><b>Tillkännagivande</b> i ett betänkande, oftast som reservation till utskottets förslag. Inte rättsligt bindande, se <a href="#v-kil">3.5</a>.</li>
+<li><b>Lag på utskottsinitiativ.</b> Ett utskott kan väcka eget lagförslag inom sitt beredningsområde. Antas det måste regeringen verkställa det. Kräver majoritet i utskottet, se <a href="#v-utskott">3.6</a>.</li>
+<li><b>Ändring i regeringens egna propositioner.</b> Riksdagen kan anta en proposition med de ändringar som en majoritet i utskottet eller kammaren föreslår.</li>
 </ol>
-<div class="tabwrap wide"><table>
-<thead><tr><th>#</th><th>Alternativ</th><th>Linje som släpps</th><th class="num">Genomf. med → utan linjen</th><th class="num">Sannolikhet i dag</th><th class="num">Om linjen släpps</th><th class="num">Linjen släpps (bedömd)</th><th class="num">Viktad</th></tr></thead>
+<p>Var C står närmare Tidö än regeringssidan framgår av Del 2. Tabellen jämför C:s snitt mot M, KD och L med C:s snitt mot S, V och MP. SD är utelämnat ur Tidö-snittet eftersom C–SD är låg på nästan alla områden; i en votering räknas SD:s röster ändå.</p>
+<div class="tabwrap"><table>
+<thead>
+<tr>
+<th>Område</th>
+<th class="num">C mot M, KD, L</th>
+<th class="num">C mot S, V, MP</th>
+<th class="num">Skillnad</th>
+<th class="num">C:s prioritet (Del 4a)</th>
+<th>Troligen i C-avtalet?</th>
+</tr>
+</thead>
 <tbody>
-<tr><td class="rank">1</td><td><b>G3: M+KD+L, SD aktiv, C passiv</b></td><td>C mot SD-beroende</td><td class="num"><span class="neg">−3,95</span> (C) → <span class="pos">+1,75</span> (SD)</td><td class="num">3,0 % (andel av G-klumpen)</td><td class="num">≈ 20 %</td><td class="num">5 %</td><td class="num">≈ 1,0 %</td></tr>
-<tr><td class="rank">3</td><td><b>G1: M+KD+L+C, SD aktiv</b></td><td>C mot SD-beroende</td><td class="num"><span class="neg">−6,5</span> (C) → <span class="neg">−2,25</span> (SD)</td><td class="num">1,0 % (andel av G-klumpen)</td><td class="num">≈ 4,3 %</td><td class="num">5 %</td><td class="num">≈ 0,2 %</td></tr>
-<tr><td class="rank">4</td><td><b>M+KD+L, SD-avtal, C passiv</b></td><td>C mot SD-beroende</td><td class="num"><span class="neg">−7,95</span> (C) → <span class="neg">−1,95</span> (C)</td><td class="num">–</td><td class="num">≈ 4,8 %</td><td class="num">5 %</td><td class="num">≈ 0,2 %</td></tr>
-<tr><td class="rank">5</td><td><b>Tidö: M+SD+KD+L, C passiv</b></td><td>C mot SD-beroende</td><td class="num"><span class="neg">−7,95</span> (C) → <span class="neg">−1,95</span> (C)</td><td class="num">–</td><td class="num">≈ 4,8 %</td><td class="num">5 %</td><td class="num">≈ 0,2 %</td></tr>
-<tr><td class="rank">6</td><td><b>M+SD, avtal KD och L, C passiv</b></td><td>C mot SD-beroende</td><td class="num"><span class="neg">−7,95</span> (C) → <span class="neg">−1,95</span> (C)</td><td class="num">–</td><td class="num">≈ 4,8 %</td><td class="num">5 %</td><td class="num">≈ 0,2 %</td></tr>
-<tr><td class="rank">17</td><td><b>C: S+MP+V, C-avtal</b></td><td>C mot V-ministrar</td><td class="num"><span class="neg">−3,2</span> (C) → <span class="pos">+2,8</span> (C)</td><td class="num">3,0 %</td><td class="num">≈ 28 %</td><td class="num">15 %</td><td class="num">≈ 4,2 %</td></tr>
-</tbody></table></div>
-<p>Scenario C är det enda alternativ där en släppt linje ger en stor sannolikhet: 28 % om C accepterar V-ministrar, i nivå med A′/B′. Multiplicerat med den bedömda chansen att C släpper linjen (15 %, avsnitt 1) blir det viktade bidraget 4 %, nära scenariomodellens bedömda 3 %. Kalibreringen och bedömningen är alltså inbördes rimliga. För de M-ledda alternativen hjälper det mindre att C släpper linjen mot SD-beroende. G3 stiger till 20 % på papperet, men chansen att C släpper den linjen är 5 %, och Tidö, SD-avtalet och M+SD stannar under 5 % även utan linjen, eftersom C:s Del1-straff och SD:s låga regeringsnetto binder i stället. Kalibreringen känner inte till formateurordningen: att talmannen ger S första försöket är inbakat i de bedömda siffrorna för A–E men inte i formeln, så G3:s 20 % ska läsas som en övre gräns. Vid 175/174 blir utgångsvärdena något lägre för A′/B′ och något högre för E, men rangordningen av de kontrafaktiska siffrorna ändras inte.</p>
-<h3 id="vstrikt">2.5 Känslighetsfall: V:s kongressbeslut läses strikt</h3>
-<p>Rad 15 och 16 bygger på att V:s aktiva tolerans räknas som halvvägs mellan stödparti och opposition, rollvärde 0. V:s kongressbeslut, regering om V:s röster behövs och aldrig stödparti, kan också läsas strikt: allt stöd utan ministrar är stödparti. Då får aktiv tolerans stödpartiets rollvärde −3 och V:s tal på rad 15 sjunker från +1,75 till −1,25. Passiv tolerans påverkas inte, eftersom den använder oppositionsvärdet.</p>
-<div class="tabwrap wide"><table id="vstrikt-tab">
-<thead><tr><th>#</th><th>Alternativ</th><th>V:s roll</th><th class="num">Genomförbarhet i dag</th><th class="num">Strikt läsning</th><th class="num">Sannolikhet i dag</th><th class="num">Strikt läsning</th></tr></thead>
+<tr>
+<td>Arbetsmarknad</td>
+<td class="num">7,7</td>
+<td class="num">3,3</td>
+<td class="num"><b>+4,3</b></td>
+<td class="num">8</td>
+<td>Ja</td>
+</tr>
+<tr>
+<td>Bostad</td>
+<td class="num">7,7</td>
+<td class="num">3,3</td>
+<td class="num"><b>+4,3</b></td>
+<td class="num">6</td>
+<td>Delvis</td>
+</tr>
+<tr>
+<td>Skatter</td>
+<td class="num">6,7</td>
+<td class="num">3,3</td>
+<td class="num"><b>+3,3</b></td>
+<td class="num">8</td>
+<td>Ja</td>
+</tr>
+<tr>
+<td>Fördelning</td>
+<td class="num">6,7</td>
+<td class="num">3,3</td>
+<td class="num"><b>+3,3</b></td>
+<td class="num">5</td>
+<td>Delvis, via budgeten</td>
+</tr>
+<tr>
+<td>Landsbygd</td>
+<td class="num">6,3</td>
+<td class="num">3,0</td>
+<td class="num"><b>+3,3</b></td>
+<td class="num">10</td>
+<td>Ja</td>
+</tr>
+<tr>
+<td>Försvar</td>
+<td class="num">8,7</td>
+<td class="num">5,7</td>
+<td class="num">+3,0</td>
+<td class="num">5</td>
+<td>Nej, brett samförstånd</td>
+</tr>
+<tr>
+<td>EU</td>
+<td class="num">8,0</td>
+<td class="num">5,0</td>
+<td class="num">+3,0</td>
+<td class="num">6</td>
+<td>Nej</td>
+</tr>
+<tr>
+<td>Välfärd</td>
+<td class="num">6,7</td>
+<td class="num">4,3</td>
+<td class="num">+2,3</td>
+<td class="num">5</td>
+<td>Delvis, via budgeten</td>
+</tr>
+<tr>
+<td>Skola</td>
+<td class="num">6,3</td>
+<td class="num">4,0</td>
+<td class="num">+2,3</td>
+<td class="num">5</td>
+<td>Nej</td>
+</tr>
+<tr>
+<td>Energi</td>
+<td class="num">6,7</td>
+<td class="num">5,0</td>
+<td class="num">+1,7</td>
+<td class="num">6</td>
+<td>Avgörs av energiklausulen</td>
+</tr>
+<tr>
+<td>Utrikes, bistånd</td>
+<td class="num">5,3</td>
+<td class="num">5,3</td>
+<td class="num">0,0</td>
+<td class="num">4</td>
+<td>Nej</td>
+</tr>
+<tr>
+<td>Integration</td>
+<td class="num">5,3</td>
+<td class="num">5,7</td>
+<td class="num">−0,3</td>
+<td class="num">5</td>
+<td>Nej</td>
+</tr>
+<tr>
+<td>Värderingar</td>
+<td class="num">5,3</td>
+<td class="num">5,7</td>
+<td class="num">−0,3</td>
+<td class="num">6</td>
+<td>Nej</td>
+</tr>
+<tr>
+<td>Klimat</td>
+<td class="num">5,0</td>
+<td class="num">5,7</td>
+<td class="num">−0,7</td>
+<td class="num">7</td>
+<td>Ja</td>
+</tr>
+<tr>
+<td>Rättsväsende</td>
+<td class="num">4,3</td>
+<td class="num">5,3</td>
+<td class="num">−1,0</td>
+<td class="num">4</td>
+<td>Nej</td>
+</tr>
+<tr>
+<td>Migration</td>
+<td class="num">3,3</td>
+<td class="num">6,0</td>
+<td class="num"><b>−2,7</b></td>
+<td class="num">6</td>
+<td>Delvis</td>
+</tr>
+</tbody>
+</table></div>
+<div class="callout"><p><b>Paradoxen: där C står närmast Tidö binder C sig själv.</b> C:s tre högst prioriterade områden (landsbygd, skatter, arbetsmarknad) är också tre av de fem där C står närmast Tidö. Just därför kommer C att skriva in dem i avtalet med S, och då är C bundet att rösta med regeringen där. Tidöpolitik på de områdena kommer i så fall igenom i C:s avtal, inte i Tidöpartiernas voteringar, som i januariavtalet 2019 med avskaffad värnskatt, ändrad LAS och fri hyressättning i nyproduktion. Med V i regeringen blir sådana avtalspunkter svårare än 2019, eftersom V har arbetsmarknad 9 och bostad 8 i prioritet och vetorätt i regeringen.</p></div>
+<p><b>De bästa målen för C-vägen</b> är därför områden där C står närmare Tidö men prioriterar lågt och sannolikt lämnar utanför avtalet: <b>bostad, skola, EU, energi</b> (om klausulen lämnar den fri), och delar av <b>välfärd</b> som valfrihet och privata utförare.</p>
+<div class="callout"><p><b>Den strukturella begränsningen.</b> Tidöpartiernas fyra högsta prioriteringar är rättsväsende, migration, energi och integration. C står närmare Tidö än regeringssidan bara på en av dem, energi. C-vägen bär alltså mest M:s och L:s ekonomiska politik, inte SD:s kärnfrågor.</p></div>
+<h3 id="v-svagen">3.3 S-vägen och växelmajoriteter</h3>
+<p>S+Tidö är 273 mandat, och S står nära M på försvar (8), rättsväsende (7), migration (7) och EU (7). Formen är den blocköverskridande överenskommelsen:</p>
+<ul>
+<li><b>Energiöverenskommelsen 2016</b> (S, M, MP, C, KD): en långsiktig ram som tar frågan ur blockpolitiken.</li>
+<li><b>Migrationsöverenskommelsen oktober 2015</b> (S, MP, M, C, L, KD): regeringen gjorde upp med oppositionen och gick förbi V och SD.</li>
+<li><b>Försvarsberedningen</b> och <b>pensionsgruppen</b>: permanenta strukturer som gör att politiken i stort sett överlever ett regeringsskifte.</li>
+</ul>
+<p><b>I variant A och B</b> sitter V i regeringen och beslutar kollektivt. En S-minister kan inte på egen hand ingå en överenskommelse som V eller MP motsätter sig, så S-vägen fungerar mest i riksdagen, i parlamentariska kommittéer och på områden där V redan är överkört, som försvaret.</p>
+<p><b>I variant C blir S-vägen huvudvägen.</b> Regeringen har 147 mandat och måste låna röster i varje votering, antingen från V eller från Tidöpartierna. Den väljer den partner som står närmast regeringens egen linje. Tabellen visar regeringspartiernas mandatviktade närhet till V och till M, KD och L:</p>
+<div class="tabwrap"><table>
+<thead>
+<tr>
+<th>Område</th>
+<th class="num">Regeringen mot V</th>
+<th class="num">Regeringen mot M, KD, L</th>
+<th class="num">Skillnad</th>
+<th class="num">MP mot M, KD, L</th>
+<th class="num">Tidöprioritet</th>
+</tr>
+</thead>
 <tbody>
-<tr><td class="rank">15</td><td><b>A′/B′: S(+MP), C-avtal, V aktiv</b></td><td>aktiv tolerans</td><td class="num"><span class="pos">+1,75</span> (V)</td><td class="num"><span class="neg">−1,25</span> (V)</td><td class="num">30 %</td><td class="num">≈ 8 %</td></tr>
-<tr><td class="rank">16</td><td><b>D: S+MP+C, V aktiv</b></td><td>aktiv tolerans</td><td class="num"><span class="neg">−0,5</span> (C)</td><td class="num"><span class="neg">−1,25</span> (V)</td><td class="num">4 %</td><td class="num">≈ 3 %</td></tr>
-<tr><td class="rank">18</td><td><b>A/B: S(+MP), avtal V och C</b></td><td>avtal</td><td class="num"><span class="neg">−0,2</span> (V)</td><td class="num"><span class="neg">−0,2</span> (V), oförändrat</td><td class="num">24 %</td><td class="num">≈ 32 %</td></tr>
-<tr><td class="rank">11</td><td><b>E: S+L+KD, C-avtal</b></td><td>passiv tolerans</td><td class="num"><span class="pos">+2,2</span> (MP)</td><td class="num"><span class="pos">+2,2</span> (MP), oförändrat</td><td class="num">22 %</td><td class="num">≈ 30 %</td></tr>
-<tr><td class="rank">20</td><td><b>F: nyval eller låsning</b></td><td>–</td><td class="num">0</td><td class="num">0</td><td class="num">13 %</td><td class="num">≈ 17 %</td></tr>
-</tbody></table></div>
-<p>Sannolikheterna i sista kolumnen är räknade med kalibreringen i 2.4: tre poäng lägre genomförbarhet motsvarar ungefär en faktor 3,5, så A′/B′ går från 30 till omkring 8 procent och D från 4 till 3. De frigjorda 23 procentenheterna fördelas proportionellt på de övriga bedömda scenarierna. Att A/B stiger är en artefakt av den fördelningen: alternativet bygger på V som avtalspart, vilket den strikta läsningen träffar minst lika hårt, och V:s tal där är redan negativt. Läser man beslutet strikt bör A/B:s massa i praktiken också gå till E och F, som då hamnar kring 45 respektive 25 procent.</p>
-<p>Konsekvensen är att ingen S-ledd regering med V utanför går ihop. Det som återstår på S-sidan är scenario C med V i regeringen, blockerat av C:s linje mot V-ministrar, E med V passiv, och S–M-alternativen. Fallet ligger nära scenariomodellens känslighetstest för κ: med κ(V) = 0 faller A′/B′ till −1,25 av ett annat skäl, att V då inte har något att förlora på nyval. Gäller både strikt läsning och κ = 0 blir V:s tal −4,25 och inget S-lett alternativ med V utanför regeringen är i närheten. V:s tal på rad 15 är därmed den enskilda parameter som bär mest sannolikhetsmassa i listan. I avsnitt 1 är chansen att V släpper hållningen satt till 55 procent, vilket är ett annat sätt att säga samma sak.</p>
-
-<h2 id="budget">3. Budget</h2>
-<p>Listan i avsnitt 2 säger hur troligt det är att ett alternativ bildas. Det här avsnittet säger hur troligt det är att alternativet, när det väl finns, enas om en budget och får igenom den. Budgeten är regeringens svagaste punkt: rambeslutet avgörs med relativ majoritet, nedlagda röster räknas inte, och en regering som förlorar det regerar på oppositionens budget. Tre saker avgör. Aritmetiken: har budgetkretsen fler röster än det största sammanhållna motförslaget? Enigheten: hur långt ifrån varandra står kretsens partier på skatter, välfärd, arbetsmarknad och fördelning? Ägarskapet: hur mycket av budgeten skrivs av partier som inte sitter i regeringen, och hur illa tycker regeringspartierna om det?</p>
-<h3 id="axel-h">3.1 Finanspolitisk axel</h3>
-<p>Läget på axeln är räknat ur ratingmodellens närhetstabeller för skatter (2e), välfärd (2f), arbetsmarknad (2l) och fördelningspolitik (2m), viktade med respektive partis prioriteter i Del 4a. V och M är ytterpunkter; övriga partier placeras efter hur långt de står från var och en av dem. Finanspolitisk prioritet är medelvärdet av Del 4a på de fyra områdena och säger hur dyrt det är för partiet att ge efter. Vikt för egen budget är en egen bedömning i detta dokument, 1–10: hur mycket partiet, som regeringsparti, är berett att betala för att budgeten ska vara dess egen och inte förhandlad av utomstående.</p>
-<div class="tabwrap"><table id="axel">
-<thead><tr><th>Parti</th><th class="num">Läge på axeln<br>(0 = V, 10 = M)</th><th class="num">Finanspolitisk prioritet (Del 4)</th><th class="num">Vikt för egen budget</th><th>Kommentar</th></tr></thead>
-<tbody>
-<tr><td><span class="chips"><span class="chip V">V</span></span></td><td class="num"><span class="axis" style="--x:0%">0,0</span></td><td class="num">9,0</td><td class="num">7</td><td>Ytterpunkt. Högst finanspolitisk prioritet av alla. Röstar inte för en ram som Tidöpartier har förhandlat.</td></tr>
-<tr><td><span class="chips"><span class="chip S">S</span></span></td><td class="num"><span class="axis" style="--x:29%">2,9</span></td><td class="num">8,5</td><td class="num">8</td><td>Välfärd 10 och arbetsmarknad 9 i Del 4: S kan ge på skatter, inte på välfärden. Har regerat på oppositionens budget 2015 och 2022, båda gångerna som nödlösning.</td></tr>
-<tr><td><span class="chips"><span class="chip MP">MP</span></span></td><td class="num"><span class="axis" style="--x:31%">3,1</span></td><td class="num">5,2</td><td class="num">8</td><td>Följer S på axeln men med låg egen prioritet. Lämnade regeringen 2021 hellre än att regera på M+KD+SD:s budget, därav hög vikt för egen budget.</td></tr>
-<tr><td><span class="chips"><span class="chip SD">SD</span></span></td><td class="num"><span class="axis" style="--x:55%">5,5</span></td><td class="num">6,0</td><td class="num">6</td><td>Mittläge: skattesänkningar i toppen är inte SD:s fråga, välfärdsutgifter är det. Finanspolitiskt närmare S (4,8) än C är (4,0).</td></tr>
-<tr><td><span class="chips"><span class="chip C">C</span></span></td><td class="num"><span class="axis" style="--x:74%">7,4</span></td><td class="num">6,5</td><td class="num">7</td><td>Skatter och arbetsmarknad 8 i Del 4, välfärd och fördelning 5. Det är på de senare C kan ge. Lämnade januarisamarbetet 2021 över V:s inflytande på budgeten.</td></tr>
-<tr><td><span class="chips"><span class="chip KD">KD</span></span></td><td class="num"><span class="axis" style="--x:77%">7,7</span></td><td class="num">6,5</td><td class="num">5</td><td>Sjukvård 9 drar mot högre utgifter, i övrigt högerläge. Har accepterat en SD-förhandlad ram fyra år i rad.</td></tr>
-<tr><td><span class="chips"><span class="chip L">L</span></span></td><td class="num"><span class="axis" style="--x:81%">8,1</span></td><td class="num">5,0</td><td class="num">5</td><td>Lägst finanspolitisk prioritet, lättast att tillfredsställa i en budget. Juniorpartner i två regeringars budgetar.</td></tr>
-<tr><td><span class="chips"><span class="chip M">M</span></span></td><td class="num"><span class="axis" style="--x:100%">10,0</span></td><td class="num">7,0</td><td class="num">9</td><td>Ytterpunkt. Skatter 9 i Del 4. Har lett Tidöbudgeten fyra år och förhandlar inte ram med V.</td></tr>
-</tbody></table></div>
-<p>Axeln bekräftar det som gör S-ledda alternativ med C svaga: S står på 2,9 och C på 7,4, V på 0. Ett parti med höga skatter och höga utgifter har inte bara långt till ett med låga, avståndet ligger dessutom på de områden båda prioriterar högst. SD:s mittläge är den enskilt viktigaste avvikelsen: SD ligger finanspolitiskt närmare S än C gör, och närmare S än något annat Tidöparti. Det syns i Tidöbudgetarna, som spenderat mer än M ensamt hade gjort.</p>
-<h3 id="budgetformel">3.2 Så räknas budgetsannolikheten</h3>
-<pre class="formula">Budget      = Aritmetik × Enighet × Ägarskap
-Budgetkrets = regering + samarbetspartner + aktiv tolerans, alltså de som röstar för ramen
-Aritmetik   = 1 om kretsen har fler mandat än det största motblocket;
-              0,4 om det räcker att en passiv tolerant lägger ner rösterna även i budgetomröstningen; annars 0
-Enighet     = 1 / (1 + e^(−(f_min − 2,5) / 1,1)), där f_min är kretsens lägsta parvisa finanspolitiska närhet;
-              0 om V och något Tidöparti båda ingår i kretsen
-Ägarskap    = 1 − 2 × Σ regeringspartier [mandatandel × vikt/10 × (1 − e) × d/10],
-              e = regeringens andel av kretsens mandat, d = partiets avstånd på axeln till kretsens utomstående</pre>
-<p>Motblocket är det största sammanhållna motförslaget: Tidöpartierna utanför kretsen, S+V+MP utanför kretsen, eller C ensamt. Passiv tolerans hjälper inte här; ett passivt parti röstar på sin egen ram. Enigheten är kalibrerad på tre punkter: Tidökretsen (f_min 4,25, fyra budgetar av fyra) ger 0,83, januarikretsen med V som aktiv tolerant (f_min 2,2, två budgetar av tre 2019–2021) ger 0,44, och S–M (3,25) sätts till 0,66 som bedömning. Ägarskapet drar ner alternativ där en stor del av kretsen står utanför regeringen och långt från den på axeln, viktat med hur mycket regeringspartiet bryr sig om att äga budgeten. Sannolikheten gäller första budgeten. Fyra budgetar i rad är svårare, men åren är inte oberoende: en krets som klarar den första klarar oftast de följande.</p>
-<h3 id="budgetlista">3.3 Budget per alternativ, sorterad efter budgetsannolikhet</h3>
-<div class="tabwrap wide"><table id="budget-tab">
-<thead><tr><th>#</th><th>Alternativ</th><th>Budgetkrets</th><th>Motblock</th><th class="num">Marginal</th><th class="num">Svagaste par</th><th class="num">Enighet</th><th class="num">Egen andel</th><th class="num">Ägarskap</th><th class="num">Budget</th><th>Vem viker</th></tr></thead>
-<tbody>
-<tr><td class="rank">5</td><td><b>Tidö: M+SD+KD+L, C passiv</b></td><td><span class="chips"><span class="chip M">M</span><span class="chip SD">SD</span><span class="chip KD">KD</span><span class="chip L">L</span></span> <span class="seatn">173</span></td><td>S+V+MP <span class="seatn">151</span></td><td class="num"><span class="pos">+22</span></td><td class="num">SD–L 4,2</td><td class="num">83 %</td><td class="num">100 %</td><td class="num">1,00</td><td class="num"><span class="pbar" style="--p:83%">83 %</span></td><td class="yield">L viker: välfärd, fördelning. delat: skatter, arbetsmarknad</td></tr>
-<tr><td class="rank">6</td><td><b>M+SD, avtal KD och L, C passiv</b></td><td><span class="chips"><span class="chip M">M</span><span class="chip SD">SD</span><span class="chip KD">KD</span><span class="chip L">L</span></span> <span class="seatn">173</span></td><td>S+V+MP <span class="seatn">151</span></td><td class="num"><span class="pos">+22</span></td><td class="num">SD–L 4,2</td><td class="num">83 %</td><td class="num">76 %</td><td class="num">0,92</td><td class="num"><span class="pbar" style="--p:76%">76 %</span></td><td class="yield">L viker: välfärd, fördelning. delat: skatter, arbetsmarknad</td></tr>
-<tr><td class="rank">12</td><td><b>S+L+KD utan avtal</b></td><td><span class="chips"><span class="chip S">S</span><span class="chip L">L</span><span class="chip KD">KD</span></span> <span class="seatn">141</span></td><td>M+SD <span class="seatn">132</span></td><td class="num"><span class="pos">+9</span></td><td class="num">S–L 3,7</td><td class="num">76 %</td><td class="num">100 %</td><td class="num">1,00</td><td class="num"><span class="pbar" style="--p:76%">76 %</span></td><td class="yield">L viker: välfärd, arbetsmarknad, fördelning. delat: skatter</td></tr>
-<tr><td class="rank">11</td><td><b>E: S+L+KD, C-avtal</b></td><td><span class="chips"><span class="chip S">S</span><span class="chip L">L</span><span class="chip KD">KD</span><span class="chip C">C</span></span> <span class="seatn">166</span></td><td>M+SD <span class="seatn">132</span></td><td class="num"><span class="pos">+34</span></td><td class="num">S–L 3,7</td><td class="num">76 %</td><td class="num">85 %</td><td class="num">0,92</td><td class="num"><span class="pbar" style="--p:70%">70 %</span></td><td class="yield">L viker: välfärd, arbetsmarknad, fördelning. delat: skatter</td></tr>
-<tr><td class="rank">7</td><td><b>S+M+L+KD</b></td><td><span class="chips"><span class="chip S">S</span><span class="chip M">M</span><span class="chip L">L</span><span class="chip KD">KD</span></span> <span class="seatn">211</span></td><td>SD <span class="seatn">62</span></td><td class="num"><span class="pos">+149</span></td><td class="num">S–M 3,3</td><td class="num">66 %</td><td class="num">100 %</td><td class="num">1,00</td><td class="num"><span class="pbar" style="--p:66%">66 %</span></td><td class="yield">S viker: skatter. M viker: välfärd, arbetsmarknad, fördelning</td></tr>
-<tr><td class="rank">8</td><td><b>S+M+L</b></td><td><span class="chips"><span class="chip S">S</span><span class="chip M">M</span><span class="chip L">L</span></span> <span class="seatn">189</span></td><td>SD+KD <span class="seatn">84</span></td><td class="num"><span class="pos">+105</span></td><td class="num">S–M 3,3</td><td class="num">66 %</td><td class="num">100 %</td><td class="num">1,00</td><td class="num"><span class="pbar" style="--p:66%">66 %</span></td><td class="yield">S viker: skatter. M viker: välfärd, arbetsmarknad, fördelning</td></tr>
-<tr><td class="rank">9</td><td><b>S+M+KD</b></td><td><span class="chips"><span class="chip S">S</span><span class="chip M">M</span><span class="chip KD">KD</span></span> <span class="seatn">192</span></td><td>SD+L <span class="seatn">81</span></td><td class="num"><span class="pos">+111</span></td><td class="num">S–M 3,3</td><td class="num">66 %</td><td class="num">100 %</td><td class="num">1,00</td><td class="num"><span class="pbar" style="--p:66%">66 %</span></td><td class="yield">S viker: skatter. M viker: välfärd, arbetsmarknad, fördelning</td></tr>
-<tr><td class="rank">13</td><td><b>S+M+C</b></td><td><span class="chips"><span class="chip S">S</span><span class="chip M">M</span><span class="chip C">C</span></span> <span class="seatn">195</span></td><td>SD+KD+L <span class="seatn">103</span></td><td class="num"><span class="pos">+92</span></td><td class="num">S–M 3,3</td><td class="num">66 %</td><td class="num">100 %</td><td class="num">1,00</td><td class="num"><span class="pbar" style="--p:66%">66 %</span></td><td class="yield">S viker: skatter. M viker: välfärd, arbetsmarknad, fördelning</td></tr>
-<tr><td class="rank">19</td><td><b>S+M, passiv tolerans</b></td><td><span class="chips"><span class="chip S">S</span><span class="chip M">M</span></span> <span class="seatn">170</span></td><td>SD+KD+L <span class="seatn">103</span></td><td class="num"><span class="pos">+67</span></td><td class="num">S–M 3,3</td><td class="num">66 %</td><td class="num">100 %</td><td class="num">1,00</td><td class="num"><span class="pbar" style="--p:66%">66 %</span></td><td class="yield">S viker: skatter. M viker: välfärd, arbetsmarknad, fördelning</td></tr>
-<tr><td class="rank">1</td><td><b>G3: M+KD+L, SD aktiv, C passiv</b></td><td><span class="chips"><span class="chip M">M</span><span class="chip KD">KD</span><span class="chip L">L</span><span class="chip SD">SD</span></span> <span class="seatn">173</span></td><td>S+V+MP <span class="seatn">151</span></td><td class="num"><span class="pos">+22</span></td><td class="num">L–SD 4,2</td><td class="num">83 %</td><td class="num">64 %</td><td class="num">0,79</td><td class="num"><span class="pbar" style="--p:65%">65 %</span></td><td class="yield">L viker: välfärd, fördelning. delat: skatter, arbetsmarknad</td></tr>
-<tr><td class="rank">4</td><td><b>M+KD+L, SD-avtal, C passiv</b></td><td><span class="chips"><span class="chip M">M</span><span class="chip KD">KD</span><span class="chip L">L</span><span class="chip SD">SD</span></span> <span class="seatn">173</span></td><td>S+V+MP <span class="seatn">151</span></td><td class="num"><span class="pos">+22</span></td><td class="num">L–SD 4,2</td><td class="num">83 %</td><td class="num">64 %</td><td class="num">0,79</td><td class="num"><span class="pbar" style="--p:65%">65 %</span></td><td class="yield">L viker: välfärd, fördelning. delat: skatter, arbetsmarknad</td></tr>
-<tr><td class="rank">3</td><td><b>G1: M+KD+L+C, SD aktiv</b></td><td><span class="chips"><span class="chip M">M</span><span class="chip KD">KD</span><span class="chip L">L</span><span class="chip C">C</span><span class="chip SD">SD</span></span> <span class="seatn">198</span></td><td>S+V+MP <span class="seatn">151</span></td><td class="num"><span class="pos">+47</span></td><td class="num">C–SD 3,7</td><td class="num">76 %</td><td class="num">69 %</td><td class="num">0,83</td><td class="num"><span class="pbar" style="--p:63%">63 %</span></td><td class="yield">SD viker: skatter, arbetsmarknad. C viker: välfärd, fördelning</td></tr>
-<tr><td class="rank">10</td><td><b>S+M, L-avtal</b></td><td><span class="chips"><span class="chip S">S</span><span class="chip M">M</span><span class="chip L">L</span></span> <span class="seatn">189</span></td><td>SD+KD <span class="seatn">84</span></td><td class="num"><span class="pos">+105</span></td><td class="num">S–M 3,3</td><td class="num">66 %</td><td class="num">90 %</td><td class="num">0,94</td><td class="num"><span class="pbar" style="--p:62%">62 %</span></td><td class="yield">S viker: skatter. M viker: välfärd, arbetsmarknad, fördelning</td></tr>
-<tr><td class="rank">14</td><td><b>S+M, C-avtal</b></td><td><span class="chips"><span class="chip S">S</span><span class="chip M">M</span><span class="chip C">C</span></span> <span class="seatn">195</span></td><td>SD+KD+L <span class="seatn">103</span></td><td class="num"><span class="pos">+92</span></td><td class="num">S–M 3,3</td><td class="num">66 %</td><td class="num">87 %</td><td class="num">0,92</td><td class="num"><span class="pbar" style="--p:61%">61 %</span></td><td class="yield">S viker: skatter. M viker: välfärd, arbetsmarknad, fördelning</td></tr>
-<tr><td class="rank">16</td><td><b>D: S+MP+C, V aktiv</b></td><td><span class="chips"><span class="chip S">S</span><span class="chip MP">MP</span><span class="chip C">C</span><span class="chip V">V</span></span> <span class="seatn">176</span></td><td>Tidö <span class="seatn">173</span></td><td class="num"><span class="pos">+3</span></td><td class="num">C–V 2,2</td><td class="num">44 %</td><td class="num">84 %</td><td class="num">0,91</td><td class="num"><span class="pbar" style="--p:40%">40 %</span></td><td class="yield">C viker: välfärd, fördelning. delat: skatter, arbetsmarknad</td></tr>
-<tr><td class="rank">2</td><td><b>G2: M+KD+L, S passiv</b></td><td><span class="chips"><span class="chip M">M</span><span class="chip KD">KD</span><span class="chip L">L</span></span> <span class="seatn">111</span></td><td>S+V+MP <span class="seatn">151</span></td><td class="num"><span class="neg">−40</span><br><span class="cf">kräver att S lägger ner även i budgetomröstningen</span></td><td class="num">KD–L 7,0</td><td class="num">98 %</td><td class="num">100 %</td><td class="num">1,00</td><td class="num"><span class="pbar" style="--p:39%">39 %</span></td><td class="yield">L viker: välfärd, fördelning. delat: skatter, arbetsmarknad</td></tr>
-<tr><td class="rank">17</td><td><b>C: S+MP+V, C-avtal</b></td><td><span class="chips"><span class="chip S">S</span><span class="chip MP">MP</span><span class="chip V">V</span><span class="chip C">C</span></span> <span class="seatn">176</span></td><td>Tidö <span class="seatn">173</span></td><td class="num"><span class="pos">+3</span></td><td class="num">V–C 2,2</td><td class="num">44 %</td><td class="num">86 %</td><td class="num">0,89</td><td class="num"><span class="pbar" style="--p:39%">39 %</span></td><td class="yield">C viker: välfärd, fördelning. delat: skatter, arbetsmarknad</td></tr>
-<tr><td class="rank">15</td><td><b>A′/B′: S(+MP), C-avtal, V aktiv</b></td><td><span class="chips"><span class="chip S">S</span><span class="chip MP">MP</span><span class="chip C">C</span><span class="chip V">V</span></span> <span class="seatn">176</span></td><td>Tidö <span class="seatn">173</span></td><td class="num"><span class="pos">+3</span></td><td class="num">C–V 2,2</td><td class="num">44 %</td><td class="num">69 %</td><td class="num">0,82</td><td class="num"><span class="pbar" style="--p:36%">36 %</span></td><td class="yield">C viker: välfärd, fördelning. delat: skatter, arbetsmarknad</td></tr>
-<tr><td class="rank">18</td><td><b>A/B: S(+MP), avtal V och C</b></td><td><span class="chips"><span class="chip S">S</span><span class="chip MP">MP</span><span class="chip V">V</span><span class="chip C">C</span></span> <span class="seatn">176</span></td><td>Tidö <span class="seatn">173</span></td><td class="num"><span class="pos">+3</span></td><td class="num">V–C 2,2</td><td class="num">44 %</td><td class="num">69 %</td><td class="num">0,82</td><td class="num"><span class="pbar" style="--p:36%">36 %</span></td><td class="yield">C viker: välfärd, fördelning. delat: skatter, arbetsmarknad</td></tr>
-<tr><td class="rank">20</td><td><b>F: nyval eller låsning</b></td><td>–</td><td>–</td><td class="num">–</td><td class="num">–</td><td class="num">–</td><td class="num">–</td><td class="num">–</td><td class="num">–</td><td>–</td></tr>
-</tbody></table></div>
-<p class="sources">Kolumnerna: Budgetkrets är de partier som röstar för ramen, med mandat. Motblock är det största motförslaget de kan möta. Svagaste par är kretsens två finanspolitiskt mest avlägsna partier och deras närhet. Egen andel är regeringspartiernas andel av kretsens mandat. Vem viker anger, för det svagaste paret, vilket parti som enligt Del 4 har lägst prioritet på respektive område och därför får ge efter; "delat" betyder att båda prioriterar området ungefär lika.</p>
-<h3 id="budgetlasning">3.4 Läsning</h3>
-<p><b>S och C.</b> S+C har 125 mandat mot Tidös 173, så ramen faller. C måste vika på välfärd och fördelning och S bli mer företagsvänligt på skatter och arbetsmarknad, och det är den lätta delen: S–C har 4,0 i närhet och skulle ge 79 % enighet om de var ensamma. Men rösterna måste komma någonstans ifrån. Antingen från V och MP, som då måste rösta för en ram skriven med C. Kretsen blir S+MP+C+V, svagaste par V–C 2,2, enighet 44 %, budget omkring 40 %. Det är rad 15, 16, 17 och 18, oavsett om V står i eller utanför avtalet. Eller från Tidösidan, alltså L och KD: 166 mandat mot M+SD:s 132, svagaste par S–L 3,75, enighet 76 %, budget 63–70 %. Det är rad 11 och 12. S+C är i budgethänseende alltid ett av dessa två, och det senare är säkrare.</p>
-<p><b>Axeln slår igenom på varje S-lett alternativ med C.</b> Rad 15–18 hamnar alla på 36–40 % trots olika former, eftersom svagaste paret i budgetkretsen alltid är V–C. Formen spelar mindre roll än vilka som måste rösta för ramen. Att V skulle vara med i en krets med något Tidöparti är satt till noll; det förekommer inte i listan men avgör hypotetiska varianter som S+C med SD:s röster.</p>
-<p><b>Ägarskapet är det som skiljer Tidö från G3.</b> Samma budgetkrets, samma motblock, samma enighet, men med SD utanför regeringen skrivs 36 % av budgeten av ett parti utan ministrar, och M:s vikt 9 gör det dyrt: 83 mot 65 %. Samma mekanism ger D (C i regeringen) något högre budgetsannolikhet än A′/B′ (C med avtal), 40 mot 36 %. I avsnitt 2 kostar C i regeringen rollvärde (−0,5), så de två avsnitten drar åt olika håll: det som gör regeringen lättare att bilda gör budgeten svårare att äga.</p>
-<p><b>Sannolikhet att bildas och sannolikhet att få igenom budgeten går isär.</b> A′/B′ är listans troligaste alternativ (30 %) men bland de svagaste i budget (36 %). E är det omvända: 22 % att bildas, 70 % att få igenom sin budget. S–M-axeln ligger på 66 % på enigheten ensam, med marginaler på 67 mandat och uppåt, och är den enda S-ledda formen som är säker i budgetomröstningen utan att bero på V. Den utesluts av Del 1, inte av budgeten. Tidö är säkrast av alla, 83 %, och det är budgeten, inte statsministeromröstningen, som förklarar varför Tidöpartierna vill ha SD i regeringen nästa gång.</p>
-
-<h2 id="slutsats">4. Slutsats: de fem mest troliga utfallen</h2>
-<p><b>Huvudspåret är en S-ledd regering med MP i regeringen eller som avtalspart, med stöd från C och V.</b> S+L+KD har bättre genomförbarhet och budgetförutsättningar i modellen, men kräver att två partier byter block. Därför ligger det inte först i grundbedömningen.</p>
-<p class="sources">Rangordningen bygger på den befintliga analysens bedömda sannolikheter vid 176/173 mandat, inte på en ny valprognos. A′/B′ och A/B behålls som grupper eftersom underlaget inte fördelar sannolikheten mellan deras regeringsvarianter. Nyval/låsning räknas som ett möjligt utfall; femteplatsen är delad.</p>
+<tr>
+<td>Försvar</td>
+<td class="num">3,3</td>
+<td class="num">7,7</td>
+<td class="num"><b>+4,4</b></td>
+<td class="num">5,3</td>
+<td class="num">6,4</td>
+</tr>
+<tr>
+<td>EU</td>
+<td class="num">3,8</td>
+<td class="num">6,5</td>
+<td class="num"><b>+2,7</b></td>
+<td class="num">5,7</td>
+<td class="num">5,0</td>
+</tr>
+<tr>
+<td>Migration</td>
+<td class="num">4,1</td>
+<td class="num">5,2</td>
+<td class="num">+1,1</td>
+<td class="num"><b>2,3</b></td>
+<td class="num">8,1</td>
+</tr>
+<tr>
+<td>Integration</td>
+<td class="num">4,6</td>
+<td class="num">5,5</td>
+<td class="num">+0,9</td>
+<td class="num">3,3</td>
+<td class="num">7,6</td>
+</tr>
+<tr>
+<td>Rättsväsende</td>
+<td class="num">4,6</td>
+<td class="num">5,4</td>
+<td class="num">+0,8</td>
+<td class="num"><b>2,3</b></td>
+<td class="num">8,8</td>
+</tr>
+<tr>
+<td>Landsbygd</td>
+<td class="num">4,6</td>
+<td class="num">4,7</td>
+<td class="num">+0,0</td>
+<td class="num">2,7</td>
+<td class="num">4,6</td>
+</tr>
+<tr>
+<td>Bostad</td>
+<td class="num">4,6</td>
+<td class="num">4,3</td>
+<td class="num">−0,3</td>
+<td class="num">3,3</td>
+<td class="num">5,0</td>
+</tr>
+<tr>
+<td>Utrikes, bistånd</td>
+<td class="num">4,3</td>
+<td class="num">4,0</td>
+<td class="num">−0,3</td>
+<td class="num">2,3</td>
+<td class="num">4,2</td>
+</tr>
+<tr>
+<td>Energi</td>
+<td class="num">5,7</td>
+<td class="num">5,2</td>
+<td class="num">−0,4</td>
+<td class="num"><b>1,7</b></td>
+<td class="num">7,8</td>
+</tr>
+<tr>
+<td>Skola</td>
+<td class="num">5,5</td>
+<td class="num">4,5</td>
+<td class="num">−1,0</td>
+<td class="num">3,3</td>
+<td class="num">6,0</td>
+</tr>
+<tr>
+<td>Skatter</td>
+<td class="num">5,3</td>
+<td class="num">3,6</td>
+<td class="num">−1,7</td>
+<td class="num">2,7</td>
+<td class="num">6,9</td>
+</tr>
+<tr>
+<td>Välfärd</td>
+<td class="num">6,3</td>
+<td class="num">4,6</td>
+<td class="num">−1,7</td>
+<td class="num">3,3</td>
+<td class="num">6,6</td>
+</tr>
+<tr>
+<td>Klimat</td>
+<td class="num">6,1</td>
+<td class="num">4,2</td>
+<td class="num">−1,9</td>
+<td class="num">2,7</td>
+<td class="num">3,3</td>
+</tr>
+<tr>
+<td>Arbetsmarknad</td>
+<td class="num">6,7</td>
+<td class="num">4,3</td>
+<td class="num">−2,4</td>
+<td class="num">3,3</td>
+<td class="num">5,7</td>
+</tr>
+<tr>
+<td>Fördelning</td>
+<td class="num">6,8</td>
+<td class="num">4,4</td>
+<td class="num">−2,5</td>
+<td class="num">3,3</td>
+<td class="num">6,3</td>
+</tr>
+<tr>
+<td>Värderingar</td>
+<td class="num">6,8</td>
+<td class="num">4,1</td>
+<td class="num">−2,7</td>
+<td class="num">3,3</td>
+<td class="num">4,4</td>
+</tr>
+</tbody>
+</table></div>
+<p>Regeringen står närmare Tidöpartierna än V på försvar, EU, migration, integration och rättsväsende. Tre av dem är Tidöpartiernas tre högst prioriterade områden efter energin. <b>Variant C är därför den variant där SD:s kärnfrågor har bäst chans</b>, medan variant B gynnar M:s och L:s ekonomiska politik.</p>
+<p><b>Bromsen är MP.</b> MP står längst från Tidöpartierna av regeringspartierna just på migration och rättsväsende (2,3) och energi (1,7). MP kan stoppa en växelmajoritet i regeringen men inte i riksdagen. Priset är att MP hotar att lämna regeringen, som 2021, och då blir S+C (125) ännu mer beroende av att låna röster.</p>
+<p><b>Energin i variant C</b> avgörs inne i regeringen: S och C är för kärnkraft, MP emot. Tidöpartiernas röster finns tillgängliga för S och C, så frågan är om S väljer MP eller kärnkraften. Regeringen står i snitt något närmare V (5,7) än Tidö (5,2) på energi, men bara för att MP drar ner snittet.</p>
+<p>Vad Tidöpartierna ska göra i variant C: erbjuda röster på försvar, migration, rättsväsende och EU, med konkreta villkor, och göra det offentligt. Varje uppgörelse där regeringen väljer Tidöpartierna framför V ger Tidöpolitik och slits samtidigt på regeringens förhållande till V.</p>
+<h3 id="v-budget">3.4 Budgeten</h3>
+<p>Rambeslutet avgörs genom att budgetalternativen ställs mot varandra i successiva voteringar, där det svagaste slås ut, tills två återstår <em>(förenklad beskrivning)</em>. Rambeslutet omfattar utgiftsramar och beräkningen av statens inkomster, och därmed de skatteändringar som ligger i budgeten. Budgetrelaterade tillkännagivanden hanteras i samma process. I steg två fördelas anslagen inom varje ram.</p>
+<p><b>Precedens.</b> I december 2014 vann Alliansens budget med SD:s röster, och regeringen Löfven regerade på den efter decemberöverenskommelsen. I november 2021 vann M:s, KD:s och SD:s gemensamma budget med 154 mot 143 när C och L lade ner rösterna i slutvoteringen, och MP lämnade regeringen samma dag.</p>
+<p><b>Variant A.</b> Regeringssidan har 176 mot 173 och alla fyra partierna är bundna. Tidöpartierna vinner bara om regeringen spricker inifrån eller om enskilda ledamöter avviker. En regering som inte kan enas ombildas eller avgår i regel innan voteringen.</p>
+<p><b>Variant B.</b> C är bundet av budgetavtalet, men budgetavtalet är den del som brister först, med V–C 2,2 som svagaste finanspolitiska par. Budgetmodellen ger rad 17 39 %. Om C lämnar avtalet och lägger ner rösterna vinner ett gemensamt Tidöalternativ med 173 mot 151, exakt som 2021. C står på 7,4 på den finanspolitiska axeln, nära Tidöpartierna, så att avstå är billigt.</p>
+<p><b>Variant C.</b> Samma aritmetik, men V avgör. V står på 0 på axeln och regeringen, mandatviktat, på omkring 3,7. Tidöbudgeten ligger på 8–10. V föredrar regeringens budget med stor marginal, och att fälla den till förmån för en Tidöbudget vore det dyraste V kan göra inför väljarna. Budgetmodellen ger rad 16 40 %, men när budgeten brister i variant C är det troligare att regeringen omförhandlar med V eller faller i ett misstroende än att en Tidöbudget vinner.</p>
+<p><b>Vad Tidöpartierna ska göra:</b></p>
 <ol>
-<li><p><b>S med eller utan MP, C-avtal och aktivt budgetstöd från V utan formellt avtal (A′/B′) — 30 %.</b> Kräver inget blockbyte och låter C stå utanför regeringen samtidigt som V behåller förhandlingsfrihet. Svagheten är att V måste acceptera en roll utan ministrar och rösta för budgeten varje år; budgetmodellen ger 36 % chans att få igenom den.</p></li>
-<li><p><b>S med eller utan MP, formellt avtal med V och C (A/B) — 24 %.</b> Ett gemensamt avtal ger S mer förutsägbarhet och samlar ett underlag på 176 mandat. Hindret är V:s ovilja att vara stödparti och motsättningarna mellan V och C. V:s genomförbarhetsmarginal är svagt negativ, och budgetmodellen ger även här 36 %.</p></li>
-<li><p><b>S+L+KD i regering, avtal med C (E) — 22 %.</b> Har högst genomförbarhet bland de sannolikhetsbedömda regeringsalternativ som klarar modellens villkor (+2,2) och 70 % i budgetmodellen. C:s stöd och MP:s tolerans räcker i statsministeromröstningen, så V kan inte ensamt stoppa alternativet. Den stora tröskeln är L:s och KD:s blocklojalitet.</p></li>
-<li><p><b>Nyval eller fortsatt låsning (F) — 13 %.</b> Risken ökar om V kräver ministerposter, C säger nej till V i regeringen och L/KD avvisar en S-ledd lösning. Flera huvudalternativ har små eller negativa förhandlingsmarginaler, vilket gör ett misslyckande till ett betydande utfall i analysen.</p></li>
-<li><p><b>Delad femteplats: S+MP+C med aktivt stöd från V (D), och M-ledda alternativ (G1–G3) — 4 % vardera.</b> D samlar fler i regeringen men gör regeringsrollen dyr för C och behöver fortfarande V:s budgetstöd. De M-ledda alternativen har större sakpolitisk närhet, men blockeras av C:s linje mot SD-beroende eller av S:s svaga incitament att släppa fram M. De 4 procenten gäller G1–G3 tillsammans, inte varje variant.</p></li>
+<li><b>Lägga ett gemensamt budgetalternativ varje år</b>, även när det inte har chans. Fyra separata alternativ slås ut var för sig; ett gemensamt är färdigt den dag avtalet spricker. 2021 fungerade för att M, KD och SD hade ett gemensamt alternativ.</li>
+<li><b>I variant B skriva det så att C kan avstå.</b> SD:s mittläge (5,5 på den finanspolitiska axeln) drar ramen mot högre utgifter än C (7,4) vill. En Tidöbudget som C kan lägga ner rösterna på har lägre skatter på arbete och företagande och lägre utgifter än Tidöbudgetarna 2023–2026. Det kostar SD.</li>
+<li><b>Rikta in tillkännagivanden och anslagsomfördelningar på budgeten</b> där avtalet inte når. Om en majoritet kan omfördela mellan anslag inom en redan beslutad ram i steg två är en fråga om praxis <em>(ej verifierat)</em>.</li>
 </ol>
-<p><b>V:s besked om sin roll är den viktigaste osäkerheten.</b> Om V accepterar aktivt stöd utan ministrar ligger A′/B′ bäst till. Om V kräver ministerposter försvagas både A′/B′ och A/B, och E samt låsning/nyval blir mer centrala; se <a href="#vstrikt">2.5</a>. S+MP+V med C-avtal ligger på 3 % i grundbedömningen och kräver att C släpper linjen mot V-ministrar.</p>
-<p class="sources">Vid 175/174 mandat blir ordningen A′/B′ (27 %), E (25 %), A/B (22 %), F (15 %) och den delade femteplatsen (4 % vardera). Budgettalen är villkorade på att regeringen bildas och multipliceras inte med bildandesannolikheterna. S–M-alternativen saknar bedömda sannolikheter och kan därför inte rangordnas här. Underlag: <a href="#lista">samlad lista</a>, <a href="#vstrikt">V:s roll</a> och <a href="#budgetlista">budget per alternativ</a>.</p>
-<h3>Vad modellerna säger</h3>
+<div class="callout"><p><b>Bedömning, egen:</b> sannolikheten att ett Tidöalternativ vinner minst en budgetvotering under mandatperioden är 10–15 % i variant A, 35–45 % i variant B och 10–20 % i variant C.</p></div>
+<p><b>Regeringens motdrag</b> är att utlysa extra val. Det får inte beslutas under de första tre månaderna efter att den nyvalda riksdagen samlats (RF 3:11), vilket är varför Löfven 2014 aviserade beslutet den 3 december men skulle fatta det först den 29 december. Hotet om extra val håller tillbaka det parti som står utanför, C i variant B och V i variant C, mer än Tidöpartierna.</p>
+<h3 id="v-kil">3.5 Kilfrågor, tillkännagivanden och granskning</h3>
+<p><b>Tillkännagivanden</b> är riksdagens uppmaningar till regeringen. De är inte rättsligt bindande, och regeringarna Löfven och Andersson lät många ligga. Men regeringen redovisar varje år hur den har hanterat dem, och KU följer upp. Varje tillkännagivande som regeringen inte verkställer blir en återkommande nyhet.</p>
+<p><b>Kilfrågor</b> är frågor där regeringssidan är oenig, och Tidöpartierna väljer ämnet. Varje år under allmänna motionstiden lägger partierna motioner som behandlas under våren. Tidöpartierna kan lägga reservationer som tvingar fram synliga splittringar:</p>
+<div class="tabwrap"><table>
+<thead>
+<tr>
+<th>Kil</th>
+<th>Partier som skiljs åt</th>
+<th>Närhet (Del 2)</th>
+<th>Bäst i variant</th>
+<th>Exempel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kärnkraft</td>
+<td>S och C mot MP och V</td>
+<td>S–MP 3, C–MP 5, C–M 7</td>
+<td>Alla, inne i regeringen i C</td>
+<td>Tillkännagivande om statligt stöd till fler reaktorer</td>
+</tr>
+<tr>
+<td>Migration</td>
+<td>S mot V och MP</td>
+<td>S–M 7, S–V 3</td>
+<td>A, B</td>
+<td>Förlängning eller skärpning av Tidöregler</td>
+</tr>
+<tr>
+<td>Rättsväsende</td>
+<td>S mot V och MP</td>
+<td>S–M 7, S–V 4</td>
+<td>A, B</td>
+<td>Nya straffskärpningar</td>
+</tr>
+<tr>
+<td>Skatter</td>
+<td>C mot V</td>
+<td>C–V 2, C–M 7</td>
+<td>B, C</td>
+<td>Sänkt skatt på arbete</td>
+</tr>
+<tr>
+<td>Arbetsmarknad</td>
+<td>C mot V</td>
+<td>C–V 2, C–M 8</td>
+<td>B, C</td>
+<td>Ändringar i arbetsrätten</td>
+</tr>
+<tr>
+<td>Bostad</td>
+<td>C mot V</td>
+<td>C–V 2, C–M 8</td>
+<td>B, C</td>
+<td>Marknadshyror, som fällde Löfven 2021</td>
+</tr>
+<tr>
+<td>EU</td>
+<td>C mot V</td>
+<td>C–V 2, C–L 9</td>
+<td>B, C</td>
+<td>EU-samarbete i försvar och migration</td>
+</tr>
+</tbody>
+</table></div>
+<p>I variant A och B är V och MP i regeringen, och S-kilarna splittrar regeringen själv. I variant C är S-kilarna i stället uppgörelser (<a href="#v-svagen">3.3</a>), och C–V-kilarna blir de viktiga: varje fråga där C i regeringen driver en högerreform som Tidöpartierna röstar för ökar V:s kostnad för att tolerera regeringen, se <a href="#v-misstroende">3.9</a>.</p>
+<p><b>Granskning.</b> Varje ledamot kan anmäla ett statsråd till KU. KU-kritik har ingen rättslig verkan men är ett tryckmedel. Interpellationer och frågor styr vilka ämnen statsråden måste svara på i kammaren.</p>
+<h3 id="v-utskott">3.6 Utskotten</h3>
+<p>Utskottens sammansättning avgör vems förslag som blir "utskottets förslag" och vems som blir reservation, och om utskottsinitiativ alls kan väckas. Platserna fördelas proportionellt, och partier kan gå samman i valkarteller.</p>
+<p>Egen beräkning med jämförelsetal 1, 2, 3 (d'Hondt) på ett utskott med 17 ledamöter <em>(metoden och praxis är ej verifierade; i praktiken förhandlas platserna ofta fram i valberedningen)</em>:</p>
+<div class="tabwrap"><table>
+<thead>
+<tr>
+<th>Karteller</th>
+<th class="num">Regeringssidan</th>
+<th class="num">Tidö</th>
+<th>Separat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S+V+MP+C i en kartell, Tidö i en</td>
+<td class="num"><b>9</b></td>
+<td class="num">8</td>
+<td>–</td>
+</tr>
+<tr>
+<td>S+V+MP i en kartell, C separat</td>
+<td class="num">7</td>
+<td class="num"><b>9</b></td>
+<td>C 1</td>
+</tr>
+<tr>
+<td>S+MP+C i en kartell, V separat</td>
+<td class="num">7</td>
+<td class="num"><b>9</b></td>
+<td>V 1</td>
+</tr>
+</tbody>
+</table></div>
+<p>I variant A går alla fyra naturligt i samma kartell. I variant B och C är det en förhandlingsfråga om partiet utanför regeringen går med. <b>Om det inte gör det får Tidöpartierna majoritet i varje utskott.</b> Då blir Tidöförslagen utskottets förslag i kammaren, regeringssidan får reservera sig, och utskottsinitiativ kan väckas utan att partiet utanför behöver göra något aktivt. I kammaren avgör det fortfarande, men dagordningen är Tidöpartiernas.</p>
+<p>V har störst skäl att gå med i regeringssidans kartell och C störst skäl att hålla sig fri, eftersom C står närmare Tidöpartierna i utskottens sakfrågor. För Tidöpartierna är det alltså värt att hålla ihop som en kartell. Utskottsordförandeposterna fördelas också efter förhandling och ger inflytande över ärendeplanering.</p>
+<h3 id="v-eu">3.7 EU-nämnden</h3>
+<p>Regeringen samråder med EU-nämnden före rådsmöten. Nämndens mening är politiskt men inte rättsligt bindande; en regering som går emot den riskerar misstroende.</p>
+<ul>
+<li><b>Variant B:</b> med EU utanför C-avtalet har C+M+KD+L en tydlig majoritet för en EU-positiv linje (C–L 9, C–M 8, C–V 2).</li>
+<li><b>Variant C:</b> regeringen står närmare M, KD och L (6,5) än V (3,8) på EU och hämtar sitt mandat hellre där.</li>
+</ul>
+<p>I båda fallen är det M:s och L:s EU-politik som får genomslag, inte en gemensam Tidölinje: SD står långt från både C (2) och M (3) på EU och närmare V (5). På migration och brottsbekämpning i EU kan S i stället vara partnern.</p>
+<h3 id="v-marginal">3.8 Marginalen</h3>
+<p>I variant A är regeringens marginal 3 mandat. Det räcker med sjukdom, föräldraledighet och resor för att enskilda voteringar blir osäkra.</p>
+<ul>
+<li><b>Kvittning</b> är en frivillig överenskommelse mellan partierna om att en frånvarande på ena sidan motsvaras av en frånvarande på den andra. Tidöpartierna kan vägra kvitta i utvalda voteringar. Det bryter mot praxis och kostar förtroende, och fungerar därför bara någon gång.</li>
+<li><b>Enskilda ledamöter.</b> Amineh Kakabaveh var vågmästare 2021–2022 som politisk vilde: hon släppte fram Andersson, och misstroendet mot justitieminister Morgan Johansson i juni 2022 fick 174 röster, en för lite, när hon avstod. Varje ledamot som lämnar sitt parti på regeringssidan under mandatperioden flyttar marginalen. Tidöpartierna kan inte framkalla det, men kan erbjuda en sådan ledamot sakpolitiskt inflytande.</li>
+<li>I variant B och C avgörs voteringarna av hur partiet utanför regeringen röstar, och frånvaro spelar mindre roll. Undantaget är budgeten och statsministerfrågor, där marginalen återigen är 3.</li>
+</ul>
+<h3 id="v-misstroende">3.9 Misstroende</h3>
+<p>Tidöpartierna har 35 ledamöter och kan när som helst väcka misstroende. De har inte 175 röster.</p>
+<ul>
+<li><b>Variant A:</b> kräver två avhoppare från regeringssidan. Troligt verktyg bara mot ett enskilt statsråd efter en skandal.</li>
+<li><b>Variant B:</b> Tidö+C är 198. Men ett misstroende mot statsministern fäller regeringen och C:s avtal med den. C använder hotet för att förhandla med S, inte för att hjälpa Tidöpartierna.</li>
+<li><b>Variant C:</b> Tidö+V är 202, och det är exakt läget i juni 2021. Regeringen S+MP hade C och L som avtalspartner, V hade släppt fram den utan avtal, och när regeringen gick vidare med fri hyressättning i nyproduktion, ett krav från januariavtalet, meddelade V att partiet stödde ett misstroende. SD väckte yrkandet och Löfven fälldes med 181 röster. I variant C sitter C i regeringen i stället för bredvid den, och C:s krav på skatter, arbetsmarknad och bostäder blir regeringspolitik. Hotet från V är därför större än 2021.</li>
+</ul>
+<p>Misstroende är främst ett sätt att skapa press, inte att få igenom politik. Ett fällt statsråd ger ingen ny politik, och en fälld regering leder inte automatiskt till en Tidöregering, eftersom C:s linje mot SD-beroende (95 % kvarstår) står kvar. I variant C är värdet för Tidöpartierna ändå störst: de kan väcka yrkandet på det ögonblick då V:s kostnad för att rädda regeringen är som högst, och tvinga V att välja offentligt.</p>
+<h3 id="v-grundlag">3.10 Grundlagens minoritetsskydd</h3>
+<ul>
+<li><b>Vilandeförklaring</b> (RF 2:22). Tio ledamöter kan kräva att ett lagförslag som begränsar grundlagsskyddade fri- och rättigheter vilar i tolv månader, om inte fem sjättedelar av de röstande antar det direkt. Ett fördröjningsverktyg, mest aktuellt om regeringen föreslår regler som berör exempelvis föreningsfrihet eller egendomsskydd. Vilka lagar som omfattas avgörs av den konstitutionella bedömningen i det enskilda fallet.</li>
+<li><b>Folkomröstning om vilande grundlagsändring</b> (RF 8:16). Om regeringssidan antar en grundlagsändring en första gång kan 35 ledamöter yrka och 117 bifalla en folkomröstning, som hålls samtidigt med valet 2030. Tidöpartierna har 173 och kan alltså alltid tvinga fram den. Ett försvarsverktyg, inte ett verktyg för egen politik.</li>
+<li><b>Andra beslutet om grundlagsändringar</b> som den förra riksdagen antagit som vilande avgörs med enkel majoritet i den nya. Där är Tidöpartierna beroende av avhoppare i variant A, av C i variant B, och i variant C av V eller av att regeringen själv röstar ja.</li>
+</ul>
+<h3 id="v-utanfor">3.11 Utanför riksdagen</h3>
+<ul>
+<li><b>Kommuner och regioner</b> där Tidöpartierna styr efter valet 2026 kan driva egen politik inom det kommunala självstyret: ordningsföreskrifter, upphandling av välfärd, valfrihetssystem och krav i skola och omsorg. Vilka kommuner och regioner det gäller är inte kartlagt här.</li>
+<li><b>Pågående statliga åtaganden.</b> Ringhals är det tydligaste exemplet, se <a href="#v-forsvara">3.1</a>. Avtal, statliga bolags ägardirektiv och fleråriga upphandlingar som Tidöregeringen ingått binder den nya regeringen i den utsträckning det är dyrt att bryta dem.</li>
+<li><b>Utnämningar.</b> Myndighetschefer som utsetts av Tidöregeringen sitter på förordnanden som löper vidare. Regeringen kan omplacera dem, men det är politiskt kännbart <em>(ej verifierat i detalj)</em>.</li>
+<li><b>Parlamentariska kommittéer</b> som tillsatts före valet med Tidöpartiernas direktiv fortsätter tills regeringen ändrar direktiven.</li>
+</ul>
+<h2 id="omraden">4. Område för område</h2>
+<p>Tidöprioritet är Del 4a för M, SD, KD och L, viktat med mandat. Genomslag är en egen bedömning av hur mycket Tidöpolitik som bevaras eller tillkommer under mandatperioden.</p>
+<div class="tabwrap"><table>
+<thead>
+<tr>
+<th>Område</th>
+<th class="num">Tidöprioritet</th>
+<th>A: C i reg., V i reg.</th>
+<th>B: C avtal, V i reg.</th>
+<th>C: C i reg., V utanför</th>
+<th>Kommentar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rättsväsende</td>
+<td class="num">8,8</td>
+<td>Medel–hög</td>
+<td>Medel–hög</td>
+<td><b>Hög</b></td>
+<td>Bevaras i alla varianter eftersom S inte river. Nya skärpningar bromsas av V och MP i regeringen i A och B, bara av MP i C</td>
+</tr>
+<tr>
+<td>Migration</td>
+<td class="num">8,1</td>
+<td>Medel–hög</td>
+<td>Medel–hög</td>
+<td><b>Hög</b></td>
+<td>Som ovan. C (C–M 3) och MP vill riva delar, S bromsar</td>
+</tr>
+<tr>
+<td>Energi</td>
+<td class="num">7,8</td>
+<td>Låg–medel</td>
+<td>Medel–hög / låg–medel</td>
+<td>Medel–hög</td>
+<td>Ringhals bevaras. I B avgör energiklausulen, i C om S väljer MP eller kärnkraften</td>
+</tr>
+<tr>
+<td>Integration</td>
+<td class="num">7,6</td>
+<td>Medel</td>
+<td>Medel</td>
+<td>Medel–hög</td>
+<td>Status quo; i C också växelmajoritet</td>
+</tr>
+<tr>
+<td>Skatter</td>
+<td class="num">6,9</td>
+<td>Låg–medel</td>
+<td>Medel</td>
+<td>Låg–medel</td>
+<td>Sänkningarna står kvar. Nya kommer via C, och i C kräver budgeten V</td>
+</tr>
+<tr>
+<td>Välfärd</td>
+<td class="num">6,6</td>
+<td>Låg</td>
+<td>Låg–medel</td>
+<td>Låg</td>
+<td>S har välfärd 10 och budgeten avgör</td>
+</tr>
+<tr>
+<td>Försvar</td>
+<td class="num">6,4</td>
+<td><b>Hög</b></td>
+<td><b>Hög</b></td>
+<td><b>Hög</b></td>
+<td>Brett samförstånd; i C står regeringen 4,4 närmare Tidö än V</td>
+</tr>
+<tr>
+<td>Fördelning</td>
+<td class="num">6,3</td>
+<td>Låg</td>
+<td>Låg</td>
+<td>Låg</td>
+<td>V 10 och S 8 i prioritet</td>
+</tr>
+<tr>
+<td>Skola</td>
+<td class="num">6,0</td>
+<td>Låg</td>
+<td>Medel</td>
+<td>Låg–medel</td>
+<td>L:s högsta prioritet (10). C-vägen i B</td>
+</tr>
+<tr>
+<td>Arbetsmarknad</td>
+<td class="num">5,7</td>
+<td>Låg</td>
+<td>Låg–medel</td>
+<td>Låg–medel</td>
+<td>C vill, men V blockerar i regeringen (A, B) eller med misstroende (C)</td>
+</tr>
+<tr>
+<td>EU</td>
+<td class="num">5,0</td>
+<td>Låg–medel</td>
+<td>Medel</td>
+<td>Medel</td>
+<td>För M och L, inte för SD</td>
+</tr>
+<tr>
+<td>Bostad</td>
+<td class="num">5,0</td>
+<td>Låg</td>
+<td>Medel som tillkännagivanden</td>
+<td>Låg–medel</td>
+<td>2021 visade att V fäller en regering på frågan</td>
+</tr>
+<tr>
+<td>Landsbygd</td>
+<td class="num">4,6</td>
+<td>Låg–medel</td>
+<td>Medel</td>
+<td>Medel</td>
+<td>Via C, i avtalet eller i regeringen</td>
+</tr>
+<tr>
+<td>Värderingar</td>
+<td class="num">4,4</td>
+<td>Låg</td>
+<td>Låg</td>
+<td>Låg</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Utrikes, bistånd</td>
+<td class="num">4,2</td>
+<td>Låg–medel</td>
+<td>Låg–medel</td>
+<td>Låg–medel</td>
+<td>Biståndsnivån ligger i budgeten</td>
+</tr>
+<tr>
+<td>Klimat</td>
+<td class="num">3,3</td>
+<td>Låg–medel</td>
+<td>Låg–medel</td>
+<td>Låg–medel</td>
+<td>Sänkt reduktionsplikt bevaras om inte C eller MP driver en återställning</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="nar-inte">5. Vad Tidöpartierna inte når</h2>
+<p>Regeringen styr den verkställande makten, och där har riksdagsmajoriteter små verktyg:</p>
+<ul>
+<li><b>Förordningar</b> inom regeringens eget normgivningsområde.</li>
+<li><b>Myndighetsstyrning</b>: regleringsbrev, instruktioner, uppdrag.</li>
+<li><b>Kommittédirektiv</b>: vad som utreds och hur.</li>
+<li><b>Utnämningar</b> av myndighetschefer, ambassadörer och styrelser.</li>
+<li><b>Ägarstyrning</b> av statliga bolag, inklusive Vattenfall och Videberg Kraft, inom de ramar riksdagen satt.</li>
+<li><b>Anslag är tak, inte krav.</b> Regeringen behöver inte använda hela anslaget <em>(som huvudregel; vissa anslag är regelstyrda)</em>.</li>
+<li><b>Tillkännagivanden</b> kan lämnas utan åtgärd, till en politisk kostnad.</li>
+<li><b>Förhandlingar i EU:s ministerråd</b> sköts av regeringen, med EU-nämndens mening som politisk ram.</li>
+</ul>
+<h2 id="samlad-bed">6. Samlad bedömning</h2>
 <div class="two">
-<div class="panel"><h4>Sakpolitiskt</h4><p>M-ledda regeringar är mest sammanhållna, S–M-regeringar näst mest, och de S-ledda alternativen med V minst. Sorteringen är nästan omvänd mot sannolikheten.</p></div>
-<div class="panel"><h4>Med röda linjer</h4><p>Nio av tjugo alternativ har positiv marginal och klarar formateurvillkoret: S–M-axelns sex varianter, E, S+L+KD utan avtal och A′/B′. Bara E och A′/B′ har bedömd sannolikhet, eftersom S–M utesluts per antagande.</p></div>
-<div class="panel"><h4>Utan röda linjer</h4><p>Scenario C, G3 och M+KD+L med SD-avtal tillkommer. Alternativ med C eller SD i regeringen förblir negativa; det är rollvärden i Del 3, inte röda linjer.</p></div>
-<div class="panel"><h4>Rollvärden</h4><p>Modellens rollvärden missgynnar C och SD som regeringspartier. Det ger negativa marginaler i flera alternativ även om röda linjer släpps, men är inte ett säkert besked om vilka som faktiskt kommer att regera.</p></div>
-<div class="panel"><h4>Budget</h4><p>Tidö 83 %, E 70 %, S–M-axeln 61–66 %, alla S-ledda alternativ med C och V 36–40 %. Det troligaste alternativet att bildas är bland de minst troliga att få igenom sin budget, se <a href="#budget">avsnitt 3</a>.</p></div>
+<div class="panel"><h4>Variant A (C och V i regeringen) gör Tidöpartierna i huvudsak defensiva.</h4><p>De bevarar mycket, eftersom rivning tar tid och S inte vill riva på rättsväsende och migration. Nytt får de främst på försvaret och via enstaka voteringar på en marginal på 3 mandat. Varianten är samtidigt den minst sannolika.</p></div>
+<div class="panel"><h4>Variant B (C med avtal, V i regeringen) ger mest för M och L.</h4><p>Utöver status quo får Tidöpartierna en fungerande majoritet på varje fråga C lämnat utanför avtalet, bara genom att C lägger ner rösterna. Budgeten blir en verklig möjlighet om C-avtalet spricker. Det som kommer igenom är främst ekonomisk politik, skola, bostad och EU.</p></div>
+<div class="panel"><h4>Variant C (C i regeringen, V utanför) ger mest för SD.</h4><p>Regeringen har 147 mandat och måste låna röster i varje votering. På försvar, EU, migration, integration och rättsväsende står den närmare Tidöpartierna än V, och där får Tidöpartierna genomslag genom att erbjuda röster. Bromsen är MP i regeringen. Budgeten är svår att ta, eftersom V föredrar regeringens budget med stor marginal, men misstroendet blir ett verkligt hot: Tidö+V är 202, som när Löfven fälldes 2021.</p></div>
 </div>
-
-<h3 id="jamforelse-c">4.1 Fyra regeringsalternativ med C i regering eller som stöd</h3>
-<p><b>S+MP+C med stöd av V kräver ett mindre principiellt avsteg från C, men fler svåra sakpolitiska uppgörelser.</b> M+L+KD+C med stöd av SD har ett bredare mandatunderlag och bättre budgetförutsättningar i modellen, men kräver att C överger sitt nej till SD-beroende.</p>
-<p class="sources">Jämförelsen är en kvalitativ bedömning utifrån underlagets mandat och partiprioriteringar, inte en ny sannolikhetsberäkning. Eftergifterna beskriver vad en hypotetisk uppgörelse skulle kräva; de är inte besked om vad partierna har accepterat.</p>
-<div class="tabwrap wide"><table id="jamforelse-tab" style="min-width:1100px;table-layout:fixed">
-<caption>Fyra regeringsalternativ: mandat, eftergifter och brytpunkter</caption>
-<thead><tr><th scope="col">Fråga</th><th scope="col">M+L+KD+C, stöd av SD</th><th scope="col">S+MP+C, stöd av V</th><th scope="col">V+MP+S, stöd av C</th><th scope="col">S+L+C+KD</th></tr></thead>
-<tbody>
-<tr><th scope="row">Mandat</th><td>136 i regeringen, <b>198 med SD</b>. Övriga partier har 151.</td><td>147 i regeringen, <b>176 med V</b>. Tidöpartierna har 173.</td><td>151 i regeringen, <b>176 med C</b>. Tidöpartierna har 173.</td><td><b>166 i regeringen</b>. M+SD har 132 och V+MP har 51. Ingen egen majoritet.</td></tr>
-<tr><th scope="row">Statsminister och budget</th><td>SD:s nedlagda röster räcker för att släppa fram regeringen. SD behöver rösta för budgeten om S+V+MP samlar sig bakom samma motförslag.</td><td>V:s nedlagda röster räcker för att släppa fram regeringen. V behöver rösta för budgeten om Tidöpartierna samlar sig bakom samma motförslag.</td><td>C:s nedlagda röster räcker för att släppa fram regeringen. C behöver rösta för budgeten om Tidöpartierna samlar sig bakom samma motförslag.</td><td>Om M+SD röstar nej måste minst ett av V eller MP avstå: nej-sidan blir då 154 respektive 161, i stället för 183. Budgetens 166 röster slår M+SD:s 132, men förlorar mot ett gemensamt motförslag från samtliga övriga partier på 183.</td></tr>
-<tr><th scope="row">Stödpartiets eftergift</th><td>SD avstår ministerposter och accepterar begränsningar av sitt inflytande, särskilt inom migration och integration.</td><td>V avstår regeringsmedverkan och delar av sin ekonomiska politik, mot bindande reformer och verkligt budgetinflytande.</td><td>C accepterar V-ministrar och en budget med tydligt vänsterinnehåll, mot ett avtal som skyddar viktiga företagar- och landsbygdsfrågor.</td><td>Inget formellt stödparti är angivet. MP måste kunna tolerera regeringens energipolitik, eller V måste ompröva sitt krav på regeringsmedverkan. Tolerans kan ha ett politiskt pris även utan budgetavtal.</td></tr>
-<tr><th scope="row">C:s eftergift</th><td><b>Överge nej till SD-beroende.</b> Acceptera ett konkret SD-inflytande och kompromisser om migration, klimat och energi.</td><td>Acceptera V:s budgetinflytande och begränsa egna krav på skatter och arbetsmarknad. Linjen mot V-ministrar kan behållas.</td><td><b>Överge nej till V-ministrar.</b> Acceptera kompromisser om skatter, arbetsmarknad och välfärd som stödparti utanför regeringen.</td><td>Acceptera regeringsansvar med S, L och KD samt kompromisser om arbetsmarknad, skatter och energifinansiering. Varken V-ministrar eller SD-beroende behövs i denna uppgörelse.</td></tr>
-<tr><th scope="row">Övriga regeringspartier</th><td>M omprövar uppgörelsen om SD-ministrar. L och KD begränsar delar av sina reformkrav för att finansiera ett gemensamt paket.</td><td>S gör en betydande eftergift om ny kärnkraft om MP:s linje ligger fast. MP kompromissar om andra styrmedel och reformer, bland annat där kostnader träffar landsbygd och hushåll.</td><td>V får ministerposter men begränsar ekonomiska krav för att vinna C:s stöd. S och MP måste enas om kärnkraften, och MP kompromissar om andra delar av regeringsprogrammet.</td><td><b>L och KD accepterar en S-ledd regering.</b> S kompromissar om ekonomin, L om delar av skol- och EU-politiken och KD om delar av värderingspolitiken. Kärnkraften har bättre förutsättningar för samsyn än med MP i regeringen.</td></tr>
-<tr><th scope="row">Svåraste sakfrågor</th><td><b>C–SD om migration och integration.</b> Även klimat och fördelningen av inflytande mellan regeringen och SD.</td><td><b>C–V om ekonomin och S–MP om kärnkraft.</b> Både budgetens fördelning och energipolitikens riktning måste lösas.</td><td><b>C–V om ekonomin och S–MP om kärnkraft.</b> V:s regeringsmedverkan löser ministerkravet men förstärker C:s behov av gränser för vänsterpolitiken.</td><td><b>S–C/L om arbetsmarknad, skatter och välfärd.</b> Även L–KD om värderingsfrågor samt villkoren från det parti som ska tolerera regeringen.</td></tr>
-<tr><th scope="row">Budgetförutsättningar</th><td>Större mandatmarginal och större ekonomisk samsyn enligt underlaget. Budgetmodellen anger 63 % villkorat på att alternativet bildas.</td><td>Mycket liten mandatmarginal och större ekonomiska motsättningar. Budgetmodellen anger 40 % villkorat på att alternativet bildas.</td><td>Mycket liten mandatmarginal. Budgetmodellen anger <b>39 %</b> villkorat på att alternativet bildas; C–V är det svagaste ekonomiska paret.</td><td>166 regeringsmandat ger större gemensamt ägarskap än när C bara har avtal. <b>Ingen separat budgetsannolikhet är beräknad</b> för denna variant. E:s 70 % gäller S+L+KD med C utanför regeringen och kan inte överföras direkt.</td></tr>
-<tr><th scope="row">Sannolik brytpunkt</th><td>Det SD-inflytande som krävs för stöd blir större än C kan acceptera, eller SD bedömer att eftergifterna utan ministerposter blir för stora.</td><td>V får för lite inflytande för att avstå regeringsmedverkan, C bedömer att V styr ekonomin eller S och MP inte kan enas om kärnkraften.</td><td>C vägrar släppa fram V-ministrar eller kräver ekonomiska eftergifter som V inte kan acceptera. Även oenighet mellan S och MP om kärnkraft kan stoppa regeringen.</td><td>L eller KD vägrar byta block, eller både V och MP röstar nej. Ett gemensamt motförslag från M+SD+V+MP kan också fälla budgeten.</td></tr>
-</tbody></table></div>
-<p><b>En möjlig grundaffär på M-sidan</b> är att SD får ett avgränsat reform- och budgetavtal, medan C får tydliga gränser för SD:s inflytande och genomslag för företagande, landsbygd och klimat. L får skola och KD vård. Det löser inte C:s principiella nej till SD-beroende; den linjen måste uttryckligen omprövas.</p>
-<p><b>En möjlig grundaffär på S-sidan</b> är att V får finansierade välfärds- och fördelningsreformer, C får företagar- och landsbygdsreformer och MP får ett konkret klimat- och energipaket. De mest konfliktfyllda omläggningarna av arbetsmarknad och hyressättning skjuts åt sidan. Kärnkraftsfrågan måste avgöras uttryckligen, inklusive hur redan initierade statliga åtaganden ska hanteras.</p>
-<p><b>V+MP+S med C-stöd:</b> V får regeringsmedverkan och C får ett avtal som begränsar de ekonomiska reformer partiet motsätter sig mest. Den avgörande eftergiften flyttas från V:s ministerkrav till C:s nej till V-ministrar; kärnkraftskonflikten mellan S och MP kvarstår.</p>
-<p><b>S+L+C+KD:</b> S får statsministerposten, L skola, KD vård och C företagande och landsbygd inom ett gemensamt finansierat program. L och KD måste acceptera blockbytet. Regeringen behöver dessutom säkra att minst ett av V eller MP avstår i statsministeromröstningen; det kan inte antas vara gratis. Varianten skiljer sig från E genom att C har ministrar.</p>
-<p><b>Två hinder får inte döljas bakom samarbetsformen.</b> V:s publicerade preliminära valplattform efter kongressen säger nej till att stödja eller släppa fram en regering som partiet inte ingår i. Aktiv tolerans kräver därför en ändring eller omtolkning av beskedet. S vill samtidigt skapa förutsättningar för kärnkraftsutbyggnad, medan MP motsätter sig ny kärnkraft. Ett stopp är en faktisk eftergift från S.</p>
-<p class="sources">Källor till dessa besked: <a href="https://www.vansterpartiet.se/wp-content/uploads/2026/04/Preliminar-Valplattform-efter-beslut-pa-kongressen-2026.pdf">V:s kongressplattform</a>, <a href="https://www.socialdemokraterna.se/val-2026/ekonomi/ny-ren-energi">S:s energipolitik</a> och <a href="https://www.mp.se/om/partiprogram/partiprogram-rattvis-klimatomstallning/">MP:s partiprogram</a>. Mandat och budgettal: <a href="#lista">samlad lista</a> och <a href="#budgetlista">budgetmodellen</a>. Budgettalen är modellbedömningar, inte observerade sannolikheter.</p>
-<p><b>Samlad bedömning:</b> S+MP+C med V-stöd kräver att V omprövar ministerkravet; V+MP+S med C-stöd kräver i stället att C accepterar V-ministrar. Båda har samma smala underlag och kvarstående konflikter om ekonomi och kärnkraft. M+L+KD+C med SD-stöd har bredast mandatunderlag men kräver att C överger sitt nej till SD-beroende. S+L+C+KD undviker både V och SD i regeringsunderlaget, men kräver blockbyte från L och KD samt tolerans från minst ett av V eller MP. Det finns därför inget alternativ där samarbetsformen ensam undanröjer de avgörande hindren.</p>
-<div class="callout"><p><b>Vad Tidöpartierna kan göra i opposition.</b> Med C som avtalspartner räcker det att C lägger ner rösterna utanför avtalet för att Tidöpartierna ska vinna med 173 mot 151, i lagstiftning, tillkännagivanden och, om avtalet spricker, budgeten. Med S+MP+C i regeringen och V utanför måste en regering på 147 mandat låna röster, och på försvar, EU, migration och rättsväsende står den närmare Tidöpartierna än V; Tidö+V har dessutom 202 röster för misstroende, som 2021. Med både C och V i regeringen är Tidöpartierna i huvudsak hänvisade till att försvara redan fattade beslut. Verktygen, område för område, finns i <a href="tidopartiernas-verktyg-i-opposition-2026.html">Tidöpartiernas verktyg i opposition</a>.</p></div>
-
-<h2 id="signaler">5. Signaler som flyttar listan</h2>
+<p><b>Rangordning för Tidöpartierna som helhet:</b> B ger bredast genomslag, C ger mest på de högst prioriterade områdena, A ger minst. Eftersom de troligaste S-ledda alternativen, A′/B′ och A/B, har både C och V utanför regeringen får Tidöpartierna där tillgång till verktygen från både B och C.</p>
+<p><b>En optimal Tidöstrategi:</b></p>
 <ol>
-<li><b>Slutlig mandatfördelning.</b> Vid 175/174 stiger E och F, A′/B′ och A/B sjunker.</li>
-<li><b>V:s första besked om samarbetsform.</b> Givet på valnatten: nej till Andersson om V inte ingår i regeringen, se <a href="#kvarstar">1.1</a>. Avgör också om aktiv tolerans utan avtal är förenlig med kongressbeslutet, se <a href="#vstrikt">2.5</a>. "Ministerposter eller inget" flyttar massa från A/B till A′/B′ och E. "Avtal går bra" flyttar till A/B.</li>
-<li><b>KD:s eller L:s besked om Andersson.</b> KD:s nej "ända fram till ett nyval" (2 september) står kvar, se <a href="#kvarstar">1.1</a>. Öppning höjer E till etta. Stängd dörr tar bort E och lämnar A′/B′, A/B och F.</li>
-<li><b>C:s besked om V.</b> Om C mjukar upp linjen mot V-ministrar öppnas scenario C, som då blir starkast bland de S-ledda alternativen utanför S–M-axeln. Den enda röda linje vars fall ändrar sannolikheterna i grunden.</li>
-<li><b>Ett S–M-närmande.</b> Osannolikt enligt Del 1, men det enda som ger en regering med både bred marginal och sakpolitiskt sammanhållen krets. En kris som tvingar fram det sätter de bedömda sannolikheterna ur spel.</li>
-<li><b>C:s besked om SD.</b> Om C släpper linjen mot SD-beroende blir G3 och M+KD+L med SD-avtal genomförbara med smal marginal, men aritmetiken (111–173 mandat, SD bindande) gör dem ändå bräckliga.</li>
-<li><b>Energiklausulen i ett S–C-avtal.</b> Binder den C i kärnkraftsfrågan kan MP sitta i en S-regering hela mandatperioden. Lämnar den energin fri kan C och Tidöpartierna tvinga fram kärnkraft i riksdagen, och MP lämnar troligen regeringen, se <a href="#kvarstar">1.1</a>.</li>
+<li><b>Hålla ihop som ett block</b> i alla varianter: ett gemensamt budgetalternativ, en valkartell till utskotten och samordnade reservationer.</li>
+<li><b>Låta rättsväsende och migration ligga i status quo</b> i A och B, och i C i stället erbjuda regeringen röster där, med konkreta villkor.</li>
+<li><b>I B rikta nya förslag mot områden utanför C-avtalet</b> där C står nära M, KD och L: bostad, skola, EU och energi. Formulera dem så att C kan avstå. Det gynnar M och L mer än SD, och SD:s acceptans för det är strategins svagaste punkt.</li>
+<li><b>I C rösta för C:s högerreformer</b> i regeringens propositioner, så att de går igenom utan V. Varje sådan votering ger Tidöpolitik och höjer V:s kostnad för att fortsätta tolerera regeringen.</li>
+<li><b>Använda C–V som kil</b> i B och C: skatter, arbetsmarknad och bostad, där C–V är 2.</li>
+<li><b>Sikta på budgeten och sakfrågorna, inte på regeringsmakten.</b> En M-ledd regering kräver fortfarande att C accepterar SD-beroende (95 % att linjen kvarstår). Ett sprucket avtal eller en fälld regering ger Tidöpartierna i första hand en budget eller en ny regeringsbildning, inte ett regeringsskifte.</li>
 </ol>
-
+<div class="callout"><p><b>Det avgörande är vem som står utanför regeringen och på vilka villkor.</b> I variant B avgör S:s avtal med C, med energiklausulen, kartellfrågan och vilka områden avtalet lämnar fria. I variant C avgör hur mycket inflytande V kräver för sin tolerans, och om S är beredd att hämta röster hos Tidöpartierna på V:s bekostnad.</p></div>
 <h2 id="metod">Metod och begränsningar</h2>
 <ul>
-<li>Alla värden är beräknade med scenariomodellens formel (avsnitt 4) på ratingmodellens tabeller. Kolumnen "med" är scenariomodellens avsnitt 5 rakt av för de alternativ som finns där. Kolumnen "utan" använder samma formel med R = 0, Del1-straff = 0 och Del 3b-risk utan kontextjustering. κ behålls (V 3, MP 3, C 1).</li>
-<li>Sakpolitisk närhet räknas över regeringskretsen (regering plus avtalspartier). Tolererande partier ingår inte, eftersom de inte förhandlar program.</li>
-<li>Toleransform följer riksdagsaritmetiken i scenariomodellens avsnitt 2: S+M (170) har relativ majoritet mot varje motblock och behöver en passiv tolerant. Tidö med SD i regeringen (173) behöver en av C, MP, V eller S passivt; SD-alternativen visas med C som tolerant eftersom S:s linje mot SD utesluter S. S+L+KD utan C (141) behöver två av C, MP och V passivt.</li>
-<li>Del 3-värdena bedömdes innan valresultatet var känt och med blocklogiken implicit. De kan överskatta M:s, L:s och KD:s regeringsvärde i en S-ledd regering. Kolumnen "utan" ska läsas som "vad partiernas egna rollpreferenser säger", inte som en prognos.</li>
-<li>Sannolikheter anges bara för alternativ som scenariomodellen bedömt. De summerar inte till 100 % i listan eftersom G1–G3 delar på 4 %.</li>
-<li>Budgetavsnittet (<a href="#budget">3</a>) är en egen modell i detta dokument, inte hämtad ur scenariomodellen. Axeln bygger på ratingmodellens Del 2e, 2f, 2l och 2m viktade med Del 4a; motblocken följer scenariomodellens avsnitt 2; vikten för egen budget och kalibreringen av enigheten är bedömningar. Budgetsannolikheten är villkorad på att alternativet bildas och ska inte multipliceras rakt av med kolumnen Sannolikhet, eftersom scenariomodellens bedömningar redan väger in budgetrisk.</li>
-</ul>
+<li>Närheter och prioriteter är ratingmodellens egna bedömningar, inte mätningar av röstbeteende.</li>
+<li>Regeringens närhet i variant C är mandatviktad över S (100), MP (22) och C (25).</li>
+<li>Genomslag per verktyg och område, och sannolikheten för en Tidöbudget, är egna bedömningar utan formell modell.</li>
+<li>Utskottsberäkningen förutsätter d'Hondt och fullständigt kartellsamarbete. Fördelningen i praktiken förhandlas.</li>
+<li>Riksdagsordningens detaljer om budgetvoteringens steg två är inte kontrollerade mot källtext.</li>
+<li>Kommunala och regionala majoriteter efter valet 2026 är inte kartlagda.</li>
+</ul><p class="sources">Källor: Regeringsformen 2:22, 3:11, 8:16 och 13:4, riksdagsordningen. <a href="https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/kungorelse-1974152-om-beslutad-ny-regeringsform_sfs-1974-152/">Riksdagen: Regeringsformen</a> <a href="https://www.regeringen.se/pressmeddelanden/2026/06/nasta-stora-steg-for-ny-karnkraft-i-sverige/">Ringhals: staten majoritetsägare, Regeringen.se juni 2026</a> Budgetvoteringarna 2014 och 2021 (154–143), misstroendeomröstningarna mot Löfven juni 2021 (181 ja) och Morgan Johansson juni 2022 (174 ja), migrationsöverenskommelsen oktober 2015, Löfvens aviserade extra val 2014 och januariavtalet 2019 är återgivna ur allmänt kända uppgifter och inte kontrollerade mot riksdagens protokoll i denna version.</p>
 
-<div class="foot">Källa: <code>regeringsalternativ-analys-2026.md</code> i samma repo. Ändringslogg 2026-09-14: första version med två listor; samma dag omarbetad till en samlad lista sorterad efter sakpolitisk närhet, med kolumn för röda linjer per kombination; senare samma dag kontrafaktisk sannolikhet om linjen släpps (2.4) och bedömd sannolikhet att varje linje släpps (avsnitt 1); därefter egna kolumner för regering, samarbetspartner och tolerans samt känslighetsfall 2.5 för V:s kongressbeslut; sist avsnitt 3 Budget med finanspolitisk axel och budgetsannolikhet per alternativ. 2026-09-15: avsnitt 1 sorterat efter sannolikhet att linjen kvarstår, med prövas-kolumn och konsistenskontroll (1.1); KD 30 → 20 % släpps, V 50 → 55 %; E:s 22 % flaggad som för hög; MP:s kärnkraftslinje förtydligad: den håller genom att S viker, och avgörs i praktiken av energiklausulen i S:s avtal med C (riksdagsmajoritet, Ringhals, MP 2021). Signal 7 tillagd. Fördjupningen <code>tidopartiernas-verktyg-i-opposition-2026.md</code> länkad från innehållsförteckningen, ingressen och 4.1; länkarna pekar sedan på HTML-versionen <code>tidopartiernas-verktyg-i-opposition-2026.html</code>.</div>
+<div class="foot">Källa: <code>tidopartiernas-verktyg-i-opposition-2026.md</code> i samma repo. Ändringslogg 2026-09-15: Första version. Två varianter (C i regeringen, C som avtalspartner), elva verktyg, områdestabell ur Del 2 och Del 4a, egen utskottsberäkning. 2026-09-15: Variant C tillagd (S+MP+C i regeringen, V utanför med aktiv tolerans). Växelmajoriteter med tabell över regeringens närhet till V och till M, KD och L; V:s misstroendehot med 2021 som precedens; budget, utskott och områdestabell för alla tre varianter. 2026-09-15: HTML-version i samma design som <a href="index.html">regeringsalternativ-analysen</a>, länkad därifrån.</div>
 </main>
 </div>
-
-<script>
-(function(){
-  var table=document.getElementById('samlad'); if(!table) return;
-  var ths=table.querySelectorAll('thead th'), tbody=table.tBodies[0];
-  var state={col:7,dir:-1};
-  function val(td){ var v=td.getAttribute('data-v'); return v===null?td.textContent.trim():v; }
-  function sortBy(i,dir){
-    var type=ths[i].getAttribute('data-t');
-    var rows=Array.prototype.slice.call(tbody.rows);
-    rows.sort(function(a,b){
-      var x=val(a.cells[i]), y=val(b.cells[i]);
-      if(type==='n'){ x=parseFloat(x); y=parseFloat(y); if(isNaN(x)) x=-Infinity; if(isNaN(y)) y=-Infinity; return (x-y)*dir; }
-      return x.localeCompare(y,'sv')*dir;
-    });
-    rows.forEach(function(r){ tbody.appendChild(r); });
-    Array.prototype.forEach.call(ths,function(th,j){
-      th.classList.remove('asc','desc'); th.removeAttribute('aria-sort');
-      if(j===i){ th.classList.add(dir>0?'asc':'desc'); th.setAttribute('aria-sort',dir>0?'ascending':'descending'); }
-    });
-  }
-  Array.prototype.forEach.call(ths,function(th,i){
-    th.tabIndex=0; th.setAttribute('role','button');
-    function go(){ var dir=(state.col===i)?-state.dir:(th.getAttribute('data-t')==='n'?-1:1); state={col:i,dir:dir}; sortBy(i,dir); }
-    th.addEventListener('click',go);
-    th.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); go(); } });
-  });
-  var radios=document.querySelectorAll('input[name="redmode"]'), cnt=document.getElementById('rowcount');
-  function mode(){ var m='all'; Array.prototype.forEach.call(radios,function(x){ if(x.checked) m=x.value; }); return m; }
-  function filter(){
-    var m=mode(), shown=0;
-    Array.prototype.forEach.call(tbody.rows,function(r){
-      var red=parseFloat(r.cells[9].getAttribute('data-v')||'0')>0;
-      var hide=(m==='red'&&!red)||(m==='nored'&&red);
-      r.hidden=hide; if(!hide) shown++;
-    });
-    if(cnt) cnt.textContent=(m==='all')?'':(shown+' av '+tbody.rows.length+' alternativ');
-  }
-  Array.prototype.forEach.call(radios,function(x){ x.addEventListener('change',filter); });
-  sortBy(state.col,state.dir); filter();
-})();
-</script>
 </body>
 </html>
